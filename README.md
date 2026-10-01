@@ -1,40 +1,69 @@
-# 👋 Hi, I'm Salman Anik
+<div align="center">
 
-### CSE Student • Data Science Enthusiast • Developer
+# 👋 Hi, I'm **Salman Anik**
 
-🎓 Computer Science & Engineering student at **East West University**
-📊 Interested in **Data Science, Machine Learning & Data Analysis**
-💻 Building projects and improving my problem-solving skills
+### `CSE Student` · `Data Science Enthusiast` · `Developer`
+
+<p>
+  <a href="https://www.linkedin.com/in/salman-anik-5a7015294">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:salmananik.bd@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+  <a href="YOUR_PORTFOLIO_URL">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-111111?style=flat-square&logo=googlechrome&logoColor=white" />
+  </a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=salman-anik&style=flat-square&label=Profile+Views" />
+
+</div>
 
 ---
 
 ## 🧑‍💻 About Me
 
-* 🎓 CSE @ East West University
-* 📈 Currently focusing on **Data Science**
-* 🐍 Learning **Python, SQL & Machine Learning**
-* 🗄️ Interested in **Databases & Data Analysis**
-* 🚀 Building projects to turn what I learn into practical experience
+I'm a **Computer Science & Engineering student at East West University**, graduating in **2028**.
+
+I'm currently exploring **Data Science** and building my foundation in programming, databases, data analysis, and machine learning.
+
+* 🎓 CSE @ **East West University**
+* 📊 Interested in **Data Science & Machine Learning**
+* 🐍 Currently learning **Python**
+* 🗄️ Working with **SQL & Databases**
+* 🚀 Building my skills through practical projects
+* 🎯 Goal: Turn data into useful insights and solutions
 
 ---
 
-## ⚡ Tech Stack
+## 🛠️ Tech Stack
 
-**Languages**
+### Languages
 
-`Python` `C` `Java` `JavaScript` `SQL`
+<p>
+<img src="https://skillicons.dev/icons?i=python,c,java,javascript" />
+</p>
 
-**Web**
+### Web Development
 
-`HTML` `CSS` `JavaScript` `React`
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,react" />
+</p>
 
-**Data & ML**
+### Data & Machine Learning
 
-`Python` `Pandas` `NumPy` `Matplotlib` `Scikit-learn`
+<p>
+<img src="https://skillicons.dev/icons?i=python" />
+</p>
 
-**Tools**
+`Pandas` · `NumPy` · `Matplotlib` · `Scikit-learn`
 
-`Git` `GitHub` `VS Code` `MySQL`
+### Database & Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,git,github,vscode" />
+</p>
 
 ---
 
@@ -42,58 +71,82 @@
 
 ```text
 Python
-  └── Data Analysis
-       ├── NumPy
-       ├── Pandas
-       └── Matplotlib
-
-Statistics & Probability
-        ↓
-       SQL
-        ↓
-Machine Learning
+  │
+  ├── Data Analysis
+  ├── Statistics
+  ├── NumPy
+  ├── Pandas
+  └── Machine Learning
 ```
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
-### 📊 Student Performance Analysis
+<div align="center">
 
-Data analysis project exploring student performance using Python, Pandas and visualization.
+### 🔨 Projects Coming Soon
 
-### 🗄️ Canteen Database
+I'm currently building projects to turn what I learn into practical experience.
 
-A relational database project built with MySQL and SQL for handling customers, items and orders.
+**More projects will appear here soon.**
 
-### 🤖 Machine Learning Projects
-
-Coming soon — working on practical ML projects involving prediction, classification and data analysis.
+</div>
 
 ---
 
-## 📈 GitHub Activity
+## 📊 GitHub Statistics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=salman-anik&show_icons=true&hide_border=true&rank_icon=github" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salman-anik&layout=compact&hide_border=true" height="170"/>
-</p>
+<div align="center">
 
----
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=salman-anik&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent" />
 
-## 🌐 Connect With Me
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salman-anik&layout=compact&hide_border=true&theme=transparent" />
 
-<p align="left">
-  <a href="YOUR_LINKEDIN_URL">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin"/>
-  </a>
-  <a href="YOUR_PORTFOLIO_URL">
-    <img src="https://img.shields.io/badge/Portfolio-Website-black?style=for-the-badge&logo=googlechrome"/>
-  </a>
-</p>
+</div>
 
 ---
 
-<p align="center">
-  <i>“Learning, building, and improving — one project at a time.”</i>
-</p>
+## 🔥 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=salman-anik&theme=transparent&hide_border=true" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+
+</div>
+
+---
+
+## 🌐 Let's Connect
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/salman-anik-5a7015294">
+  <img src="https://img.shields.io/badge/LinkedIn-Salman%20Anik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:salmananik.bd@gmail.com">
+  <img src="https://img.shields.io/badge/Email-salmananik.bd%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 💭 *Learning · Building · Improving*
+
+**Thanks for visiting my profile! ⭐**
+
+</div>
