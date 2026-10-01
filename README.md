@@ -16,7 +16,6 @@
   </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=salman-anik&style=flat-square&label=Profile+Views" />
 
 </div>
 
