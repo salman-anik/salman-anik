@@ -21,7 +21,7 @@ function Navbar({ theme, onToggleTheme }) {
     <header className="site-header">
       <nav className="navbar" aria-label="Primary navigation">
         <button className="brand" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          Salman<span>.</span>
+          SA<span>.</span>
         </button>
 
         <div className={`nav-links ${open ? 'is-open' : ''}`}>
