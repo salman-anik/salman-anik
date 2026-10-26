@@ -58,6 +58,9 @@ body::before {
   inset: 0;
   content: "";
   pointer-events: none;
+  opacity: var(--scroll-gradient-opacity, 1);
+  transform: translate3d(0, var(--scroll-gradient-shift, 0px), 0);
+  will-change: opacity, transform;
   background:
     radial-gradient(ellipse at 8% 12%, var(--glow-one), transparent 38%),
     radial-gradient(ellipse at 91% 28%, var(--glow-two), transparent 34%),
@@ -531,9 +534,10 @@ button { border: 0; background: transparent; cursor: pointer; }
 
 .learning-stage {
   min-height: 94px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
   align-items: flex-start;
-  gap: 14px;
+  gap: 12px;
   padding: 17px;
   border: 1px solid var(--border);
   border-radius: 15px;
@@ -571,6 +575,11 @@ button { border: 0; background: transparent; cursor: pointer; }
   color: var(--muted);
   font-size: 12px;
   line-height: 1.4;
+}
+
+@media (min-width: 801px) {
+  .learning-stage:nth-last-child(2) { grid-column: 2; }
+  .learning-stage:last-child { grid-column: 3; }
 }
 
 .empty-project {
