@@ -58,9 +58,6 @@ body::before {
   inset: 0;
   content: "";
   pointer-events: none;
-  opacity: var(--scroll-gradient-opacity, 1);
-  transform: translate3d(0, var(--scroll-gradient-shift, 0px), 0);
-  will-change: opacity, transform;
   background:
     radial-gradient(ellipse at 8% 12%, var(--glow-one), transparent 38%),
     radial-gradient(ellipse at 91% 28%, var(--glow-two), transparent 34%),
