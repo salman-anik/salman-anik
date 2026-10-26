@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Menu, X, Sun, Moon, ArrowDownToLine } from 'lucide-react'
+import { scrollToElement, scrollToTop } from '../utils/smoothScroll'
 
 const links = [
   ['About', 'about'],
@@ -13,14 +14,14 @@ function Navbar({ theme, onToggleTheme }) {
   const [open, setOpen] = useState(false)
 
   const goTo = (id) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    scrollToElement(document.getElementById(id))
     setOpen(false)
   }
 
   return (
     <header className="site-header">
       <nav className="navbar" aria-label="Primary navigation">
-        <button className="brand" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <button className="brand" onClick={scrollToTop}>
           SA<span>.</span>
         </button>
 

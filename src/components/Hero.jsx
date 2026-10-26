@@ -1,4 +1,5 @@
 import { ArrowDown, ArrowUpRight, Github, Linkedin, Code2 } from 'lucide-react'
+import { scrollToElement } from '../utils/smoothScroll'
 
 function Hero() {
   return (
@@ -41,7 +42,7 @@ function Hero() {
           <a href="https://leetcode.com/u/salmananik/" target="_blank" rel="noreferrer" aria-label="LeetCode"><Code2 size={18} /></a>
         </div>
 
-        <button className="scroll-cue" onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}>
+        <button className="scroll-cue" onClick={() => scrollToElement(document.getElementById('about'))}>
           <span>Scroll to explore</span>
           <ArrowDown size={14} />
         </button>

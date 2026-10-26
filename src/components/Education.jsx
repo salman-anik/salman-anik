@@ -9,7 +9,7 @@ function Education() {
       </div>
 
       <article className="education-card reveal">
-        <div className="education-year">2023 — 2028</div>
+        <div className="education-year">2023 — 2027</div>
         <div className="education-marker"><GraduationCap size={21} /></div>
         <div className="education-content">
           <p className="card-kicker">UNDERGRADUATE</p>

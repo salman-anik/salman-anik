@@ -1,3 +1,5 @@
+import { scrollToTop } from '../utils/smoothScroll'
+
 function Footer() {
   const year = new Date().getFullYear()
 
@@ -5,7 +7,7 @@ function Footer() {
     <footer className="footer">
       <div className="section-shell footer-inner">
         <span>© {year} Salman Anik. Built with React.</span>
-        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <button onClick={scrollToTop}>
           Back to top ↑
         </button>
       </div>

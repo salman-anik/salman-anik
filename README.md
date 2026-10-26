@@ -23,7 +23,7 @@
 
 ## 🧑‍💻 About Me
 
-I'm a **Computer Science & Engineering student at East West University**, graduating in **2028**.
+I'm a **Computer Science & Engineering student at East West University**, graduating in **2027**.
 
 I'm a CSE student interested in **Artificial Intelligence, Machine Learning, Data Mining, and Big Data Analytics**, and I'm building my foundation in programming, databases, and data analysis.
 

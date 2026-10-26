@@ -4,7 +4,7 @@ const details = [
   { icon: MapPin, label: 'Location', value: 'Dhaka, Bangladesh' },
   { icon: University, label: 'University', value: 'East West University' },
   { icon: GraduationCap, label: 'Degree', value: 'B.Sc. in CSE' },
-  { icon: CalendarDays, label: 'Expected Graduation', value: '2028' },
+  { icon: CalendarDays, label: 'Expected Graduation', value: '2027' },
 ]
 
 function About() {
