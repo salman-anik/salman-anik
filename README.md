@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm **Salman Anik**
 
-### `CSE Student` · `Data Science Enthusiast` · `Developer`
+### `CSE Student` · `AI & Data Science Enthusiast` · `Developer`
 
 <p>
   <a href="https://www.linkedin.com/in/salmananik">
@@ -25,10 +25,11 @@
 
 I'm a **Computer Science & Engineering student at East West University**, graduating in **2028**.
 
-I'm currently exploring **Data Science** and building my foundation in programming, databases, data analysis, and machine learning.
+I'm a CSE student interested in **Artificial Intelligence, Machine Learning, Data Mining, and Big Data Analytics**, and I'm building my foundation in programming, databases, and data analysis.
 
 * 🎓 CSE @ **East West University**
-* 📊 Interested in **Data Science & Machine Learning**
+* 🤖 Interested in **AI & Machine Learning**
+* 📊 Exploring **Data Mining & Big Data Analytics**
 * 🐍 Currently learning **Python**
 * 🗄️ Working with **SQL & Databases**
 * 🚀 Building my skills through practical projects
@@ -71,11 +72,12 @@ I'm currently exploring **Data Science** and building my foundation in programmi
 ```text
 Python
   │
-  ├── Data Analysis
-  ├── Statistics
-  ├── NumPy
-  ├── Pandas
-  └── Machine Learning
+  └── Data Science
+        ├── Data Analysis & Statistics
+        ├── Artificial Intelligence
+        ├── Machine Learning
+        ├── Data Mining
+        └── Big Data Analytics
 ```
 
 ---
