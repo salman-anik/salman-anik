@@ -1,6 +1,7 @@
 <div align="center">
 
-# 👋 Hi, I'm **Salman Anik**
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Salman+Anik;From+Dhaka" alt="Typing SVG" /></a>
 
 ### `CSE Student` · `AI & Data Science Enthusiast` · `Developer`
 
