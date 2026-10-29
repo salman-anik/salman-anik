@@ -1,6 +1,7 @@
+
 <div align="center">
 
-#Salman Anik
+# Salman Anik
 
 ### `CSE Student` · `AI & Data Science Enthusiast` · `Developer`
 
@@ -16,8 +17,8 @@
   </a>
 </p>
 
-
 </div>
+
 
 ---
 
