@@ -18,17 +18,13 @@ function About() {
       <div className="about-grid">
         <div className="about-copy reveal">
           <p>
-            I'm a Computer Science and Engineering student at East West University, currently exploring
-            the field of Data Science.
+            I’m studying Computer Science and Engineering at East West University and exploring how data can help answer real questions.
           </p>
           <p>
-            My current focus is on strengthening my programming, problem-solving, database, and data-related
-            skills. I'm interested in understanding how data can be transformed into useful insights and
-            practical solutions.
+            Right now, I’m strengthening my programming, problem-solving, database, and data analysis skills. I enjoy the process of taking a new idea, understanding the fundamentals, and turning it into something practical.
           </p>
           <p>
-            I'm currently building my foundation in Python and gradually moving toward Data Science and
-            Machine Learning.
+            I’m building a solid foundation in Python and SQL as I work toward Data Science and Machine Learning.
           </p>
         </div>
 

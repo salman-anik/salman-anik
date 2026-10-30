@@ -19,7 +19,7 @@ function Education() {
             Currently pursuing a B.Sc. in Computer Science &amp; Engineering with an academic interest
             in Data Science.
           </p>
-          <span className="status-pill">Currently in 3rd year</span>
+          <span className="status-pill">Expected graduation: 2027</span>
         </div>
       </article>
     </section>
