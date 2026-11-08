@@ -3,6 +3,13 @@ import { ArrowLeft, ArrowRight, ArrowUpRight, Github, Layers3, Pause, Play } fro
 
 const projects = [
   {
+    title: 'Bangladesh Biggest Public Database',
+    category: 'FLAGSHIP OPEN DATA · LARGEST INITIATIVE',
+    badge: 'Biggest Ongoing Project',
+    description: 'A community-driven collection organizing public datasets across Bangladesh (geography, banking, medicine, education, law, transport, and governance) into structured, machine-readable formats.',
+    repository: 'https://github.com/salman-anik/Bangladesh-Biggest-Public-Database',
+  },
+  {
     title: 'QuranicStatistic',
     category: 'DATA & INTERACTIVE TOOLS',
     description: 'Explore Quranic Arabic through word frequencies, repeated phrases, Surah statistics, and an interactive reader.',
@@ -101,7 +108,10 @@ function Projects() {
       >
         <article className="project-card project-card-showcase" key={project.repository}>
           <div className="project-card-top">
-            <span className="project-card-number">{String(activeProject + 1).padStart(2, '0')} / {project.category}</span>
+            <div className="project-card-heading-group">
+              <span className="project-card-number">{String(activeProject + 1).padStart(2, '0')} / {project.category}</span>
+              {project.badge && <span className="project-badge">{project.badge}</span>}
+            </div>
             <Layers3 size={19} aria-hidden="true" />
           </div>
           <div className="project-card-copy">

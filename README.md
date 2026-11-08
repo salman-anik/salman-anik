@@ -85,15 +85,32 @@ Python
 
 ## 🚀 Projects
 
+### 🌟 Featured / Flagship Project
+
 <div align="center">
 
-### 🔨 Projects Coming Soon
-
-I'm currently building projects to turn what I learn into practical experience.
-
-**More projects will appear here soon.**
+### [Bangladesh Biggest Public Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
+**A Community-Driven Collection of Public Datasets About Bangladesh**
 
 </div>
+
+The largest open-data initiative I am currently building and maintaining. It organizes scattered Bangladesh-specific datasets across geography, banking, medicine & pharmaceuticals, education, land records, law, healthcare, transportation, and public services into structured, machine-readable JSON and CSV formats.
+
+* 🗄️ **Repository:** [salman-anik/Bangladesh-Biggest-Public-Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
+* 📊 **Formats:** JSON · CSV · PDF
+* 🎯 **Goals:** Accessible open data, data science, machine learning, and community verification
+
+<br/>
+
+<details>
+<summary><b>View More Selected Projects</b></summary>
+
+* **[QuranicStatistic](https://github.com/salman-anik/QuranicStatistic)** — Explore Quranic Arabic through word frequencies, repeated phrases, and Surah statistics. ([Live Site](https://quranic-statistic.vercel.app))
+* **[Bangladesh Education Statistics 2025](https://github.com/salman-anik/Bd-statistic-2025)** — Interactive BANBEIS education data visualization with SVG charts. ([Live Site](https://bdstatistic2025.vercel.app/))
+* **[QawmiVerse](https://github.com/salman-anik/QawmiVerse)** — Bilingual guide and searchable institution directory. ([Live Site](https://qawmi-verse.vercel.app/))
+* **[Semantic Search](https://github.com/salman-anik/semantic-search-using-vibe-code)** — Hybrid semantic search combining sentence embeddings with BM25 keyword ranking.
+
+</details>
 
 ---
 
