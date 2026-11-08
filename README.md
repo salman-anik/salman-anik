@@ -90,15 +90,28 @@ Python
 <div align="center">
 
 ### [Bangladesh Biggest Public Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
-**A Community-Driven Collection of Public Datasets About Bangladesh**
+**A Community-Driven Collection of Structured Public Datasets About Bangladesh**
+
+[![Status: Active](https://img.shields.io/badge/Status-Active%20Focus-brightgreen.svg)](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database/blob/main/LICENSE)
+[![Formats](https://img.shields.io/badge/Formats-JSON%20%7C%20CSV%20%7C%20PDF-blue.svg)](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
 
 </div>
 
-The largest open-data initiative I am currently building and maintaining. It organizes scattered Bangladesh-specific datasets across geography, banking, medicine & pharmaceuticals, education, land records, law, healthcare, transportation, and public services into structured, machine-readable JSON and CSV formats.
+The largest open-data initiative I am currently building and maintaining. It organizes scattered Bangladesh-specific datasets across 12+ domains into clean, machine-readable JSON and CSV formats.
+
+#### 🗂️ Covered Domains & Datasets:
+- **🏛️ Geography & Administration:** All 8 divisions, 64 districts, 495+ upazilas, unions, postal codes, and city corporations.
+- **💊 Medicine & Pharmaceuticals:** 22+ MB standardized medicine database, brand names, generic formulas, dosage forms, and manufacturers.
+- **🏦 Banking & Finance:** Complete Bangladesh Bank registered banks, branch networks (4.4 MB), routing numbers (4.5 MB), and MFS providers.
+- **🏥 Healthcare:** Comprehensive hospital directory (2+ MB), doctor registries, blood banks, diagnostic centers, and ambulance services.
+- **🎓 Education:** Schools, colleges, and madrasas classified across all 8 administrative divisions with EIIN identifiers.
+- **⚖️ Law & Justice:** Bangladesh Constitution, Penal Code 1860, CrPC 1898, major statutory acts, and legal glossary.
+- **🚆 Transport & Routes:** Bangladesh Railway intercity trains, stations, route schedules, fare matrix, airports, and launch routes.
+- **🚨 Emergency Contacts:** 24/7 national helplines (999, 333), police stations, and fire service desks.
 
 * 🗄️ **Repository:** [salman-anik/Bangladesh-Biggest-Public-Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
-* 📊 **Formats:** JSON · CSV · PDF
-* 🎯 **Goals:** Accessible open data, data science, machine learning, and community verification
+* 🚀 **Ready for:** Python Pandas, Data Science, AI/ML, NLP, Vector RAG, and Web/Mobile Applications
 
 <br/>
 

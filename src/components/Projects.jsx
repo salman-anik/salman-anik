@@ -3,13 +3,6 @@ import { ArrowLeft, ArrowRight, ArrowUpRight, Github, Layers3, Pause, Play } fro
 
 const projects = [
   {
-    title: 'Bangladesh Biggest Public Database',
-    category: 'FLAGSHIP OPEN DATA · LARGEST INITIATIVE',
-    badge: 'Biggest Ongoing Project',
-    description: 'A community-driven collection organizing public datasets across Bangladesh (geography, banking, medicine, education, law, transport, and governance) into structured, machine-readable formats.',
-    repository: 'https://github.com/salman-anik/Bangladesh-Biggest-Public-Database',
-  },
-  {
     title: 'QuranicStatistic',
     category: 'DATA & INTERACTIVE TOOLS',
     description: 'Explore Quranic Arabic through word frequencies, repeated phrases, Surah statistics, and an interactive reader.',
@@ -89,7 +82,7 @@ function Projects() {
   return (
     <section className="section-shell section" id="projects">
       <div className="section-heading reveal">
-        <p className="eyebrow">04 / SELECTED PROJECTS</p>
+        <p className="eyebrow">05 / SELECTED PROJECTS</p>
         <h2>Learning by building.</h2>
         <p className="section-intro">A rotating look at projects across web development, data visualization, education, and machine learning.</p>
       </div>
@@ -108,10 +101,7 @@ function Projects() {
       >
         <article className="project-card project-card-showcase" key={project.repository}>
           <div className="project-card-top">
-            <div className="project-card-heading-group">
-              <span className="project-card-number">{String(activeProject + 1).padStart(2, '0')} / {project.category}</span>
-              {project.badge && <span className="project-badge">{project.badge}</span>}
-            </div>
+            <span className="project-card-number">{String(activeProject + 1).padStart(2, '0')} / {project.category}</span>
             <Layers3 size={19} aria-hidden="true" />
           </div>
           <div className="project-card-copy">
