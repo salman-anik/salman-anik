@@ -83,14 +83,29 @@ Python
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
-### 🌟 Featured / Flagship Project
+### 1. 🫀 [AnaPharm](https://github.com/salman-anik/AnaPharm) — 3D Human Anatomy & Bangladesh Medicine Database
 
 <div align="center">
 
-### [Bangladesh Biggest Public Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
-**A Community-Driven Collection of Structured Public Datasets About Bangladesh**
+[![Live Web App](https://img.shields.io/badge/Live_App-anapharm.vercel.app-24634d?style=for-the-badge&logo=vercel&logoColor=white)](https://anapharm.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FAnaPharm-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/AnaPharm)
+[![Releases](https://img.shields.io/badge/Download_APK-Release_v3.5-teal?style=for-the-badge&logo=android)](https://github.com/salman-anik/AnaPharm/releases)
+
+</div>
+
+An interactive 3D human anatomy and pharmaceutical reference application combining WebGL anatomical exploration, physiological simulations (heartbeat BPM, lungs, blood circulation), disease references, and an extensive Bangladesh pharmaceutical database:
+* 🔬 **3D Human Anatomy:** Full-body model with 360° orbital rotation, layered dissection, exploded disassembly, and X-ray mode.
+* 🫀 **Physiological Simulations:** Real-time animated heartbeat with adjustable BPM, pulmonary respiratory expansion, and animated blood flow particles.
+* 💊 **Comprehensive Bangladesh Medicine Registry:** Over **33,200+ commercial medicine brands** and **2,594 generic medicines** with indications, dosage guidelines, precautions, and side effects in Bangla (Hind Siliguri typography).
+* 📱 **Cross-Platform:** Available as a [Live Web Application](https://anapharm.vercel.app/) and standalone offline Android Release APK.
+
+---
+
+### 2. 🗄️ [Bangladesh Biggest Public Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database) — Open-Source Public Data Infrastructure
+
+<div align="center">
 
 [![Status: Active](https://img.shields.io/badge/Status-Active%20Focus-brightgreen.svg)](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database/blob/main/LICENSE)
@@ -98,32 +113,20 @@ Python
 
 </div>
 
-The largest open-data initiative I am currently building and maintaining. It organizes scattered Bangladesh-specific datasets across 12+ domains into clean, machine-readable JSON and CSV formats.
+The largest open-source collection of structured Bangladesh public data, organizing fragmented civic, health, geographic, educational, and financial records into clean, machine-readable JSON and CSV formats.
 
 #### 🗂️ Covered Domains & Datasets:
 - **🏛️ Geography & Administration:** All 8 divisions, 64 districts, 495+ upazilas, unions, postal codes, and city corporations.
 - **💊 Medicine & Pharmaceuticals:** 22+ MB standardized medicine database, brand names, generic formulas, dosage forms, and manufacturers.
 - **🏦 Banking & Finance:** Complete Bangladesh Bank registered banks, branch networks (4.4 MB), routing numbers (4.5 MB), and MFS providers.
 - **🏥 Healthcare:** Comprehensive hospital directory (2+ MB), doctor registries, blood banks, diagnostic centers, and ambulance services.
-- **🎓 Education:** Schools, colleges, and madrasas classified across all 8 administrative divisions with EIIN identifiers.
+- **🎓 Education:** 40,000+ schools, colleges, and madrasas classified across all 8 administrative divisions with EIIN identifiers.
 - **⚖️ Law & Justice:** Bangladesh Constitution, Penal Code 1860, CrPC 1898, major statutory acts, and legal glossary.
 - **🚆 Transport & Routes:** Bangladesh Railway intercity trains, stations, route schedules, fare matrix, airports, and launch routes.
 - **🚨 Emergency Contacts:** 24/7 national helplines (999, 333), police stations, and fire service desks.
 
 * 🗄️ **Repository:** [salman-anik/Bangladesh-Biggest-Public-Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
 * 🚀 **Ready for:** Python Pandas, Data Science, AI/ML, NLP, Vector RAG, and Web/Mobile Applications
-
-<br/>
-
-<details>
-<summary><b>View More Selected Projects</b></summary>
-
-* **[QuranicStatistic](https://github.com/salman-anik/QuranicStatistic)** — Explore Quranic Arabic through word frequencies, repeated phrases, and Surah statistics. ([Live Site](https://quranic-statistic.vercel.app))
-* **[Bangladesh Education Statistics 2025](https://github.com/salman-anik/Bd-statistic-2025)** — Interactive BANBEIS education data visualization with SVG charts. ([Live Site](https://bdstatistic2025.vercel.app/))
-* **[QawmiVerse](https://github.com/salman-anik/QawmiVerse)** — Bilingual guide and searchable institution directory. ([Live Site](https://qawmi-verse.vercel.app/))
-* **[Semantic Search](https://github.com/salman-anik/semantic-search-using-vibe-code)** — Hybrid semantic search combining sentence embeddings with BM25 keyword ranking.
-
-</details>
 
 ---
 

@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section className="section-shell section contact-section" id="contact">
       <div className="contact-panel reveal">
-        <p className="eyebrow">06 / CONTACT</p>
+        <p className="eyebrow">05 / CONTACT</p>
         <h2>Let's Connect</h2>
         <p>Have an opportunity, idea, or simply want to connect?</p>
 

@@ -115,35 +115,32 @@ function FlagshipProject() {
   const repoBaseUrl = 'https://github.com/salman-anik/Bangladesh-Biggest-Public-Database'
 
   return (
-    <section className="section-shell section" id="database">
-      <div className="section-heading reveal">
-        <p className="eyebrow">04 / FLAGSHIP PROJECT</p>
-        <h2>Bangladesh Biggest Public Database</h2>
-        <p className="section-intro">
-          My primary ongoing open-data initiative: unifying fragmented Bangladesh public records into structured, production-ready datasets for developers, researchers, and AI engineers.
-        </p>
-      </div>
-
+    <article className="flagship-showcase reveal" id="database">
       <div className="flagship-hero-card reveal">
         <div className="flagship-hero-header">
           <div className="flagship-status-tags">
             <span className="flagship-status-badge">
               <span className="flagship-pulse-dot" aria-hidden="true" />
-              Primary Ongoing Project
+              Primary Open-Data Project
             </span>
             <span className="flagship-tag">MIT Open Source</span>
             <span className="flagship-tag">JSON · CSV · PDF</span>
+            <span className="flagship-tag">64 Districts &amp; All Upazilas</span>
           </div>
           <Database size={24} className="flagship-icon" aria-hidden="true" />
         </div>
 
         <div className="flagship-hero-content">
-          <h3>Centralizing scattered Bangladesh data for everyone.</h3>
+          <p className="card-kicker">PROJECT 02 / OPEN-DATA INFRASTRUCTURE &amp; CIVIC TECH</p>
+          <h3>Bangladesh Biggest Public Database</h3>
+          <p className="anapharm-tagline">
+            <em>The Largest Open-Source Collection of Structured Bangladesh Public Data.</em>
+          </p>
           <p>
             Finding reliable, structured Bangladesh-specific data has long been a challenge. Information is scattered across outdated government gazettes, inaccessible PDFs, regulatory portals, and siloed directories.
           </p>
           <p>
-            <strong>Bangladesh Biggest Public Database</strong> bridges this gap by systematically scraping, cleaning, structuring, and maintaining verified datasets in clean, machine-readable formats with documented data provenance.
+            <strong>Bangladesh Biggest Public Database</strong> bridges this gap by systematically scraping, cleaning, structuring, and maintaining verified datasets in clean, machine-readable formats with documented data provenance. Built for developers, researchers, students, and AI/ML engineers.
           </p>
         </div>
 
@@ -308,7 +305,7 @@ console.log(search);`}</code>
           )}
         </div>
       </div>
-    </section>
+    </article>
   )
 }
 
