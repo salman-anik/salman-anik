@@ -1133,324 +1133,73 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   line-height: 1.4;
 }
 
-/* Domain Explorer */
-.flagship-explorer {
-  margin-top: 28px;
-  padding: clamp(24px, 3.5vw, 36px);
-  border: 1px solid var(--border);
-  border-radius: 24px;
-  background: var(--surface);
-  box-shadow: var(--card-shadow);
-  display: grid;
-  gap: 22px;
-}
-
-.flagship-explorer-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.flagship-explorer-header h3 {
-  margin: 0;
-  font-size: clamp(20px, 2.5vw, 26px);
-  letter-spacing: -.03em;
-}
-
-.flagship-explorer-hint {
-  font-size: 12px;
-  color: var(--muted);
-}
-
-.flagship-domain-tabs {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  padding-bottom: 6px;
-  scrollbar-width: thin;
-}
-
-.flagship-domain-tab {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 14px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: var(--surface-strong);
-  color: var(--muted);
-  font-size: 13px;
-  font-weight: 600;
-  white-space: nowrap;
-  transition: all .2s ease;
-}
-
-.flagship-domain-tab:hover {
-  border-color: var(--border-strong);
-  color: var(--text);
-}
-
-.flagship-domain-tab.is-active {
-  background: var(--text);
-  color: var(--bg);
-  border-color: var(--text);
-}
-
-.flagship-domain-detail {
-  padding: 24px;
-  border-radius: 18px;
-  background: var(--surface-strong);
-  border: 1px solid var(--border);
-  display: grid;
-  gap: 18px;
-}
-
-.flagship-domain-detail-top {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 14px;
-}
-
-.flagship-badge-pill {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--accent-ink);
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  margin-bottom: 6px;
-}
-
-.flagship-domain-detail-top h4 {
-  margin: 0 0 6px;
-  font-size: clamp(18px, 2vw, 22px);
-  letter-spacing: -.02em;
-}
-
-.flagship-domain-summary {
-  margin: 0;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.6;
-  max-width: 600px;
-}
-
-.flagship-folder-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border-radius: 999px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  color: var(--text);
-  font-size: 12px;
-  font-weight: 600;
-  transition: all .2s ease;
-}
-
-.flagship-folder-link:hover {
-  background: var(--text);
-  color: var(--bg);
-  border-color: var(--text);
-}
-
-.flagship-domain-meta-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-
-.flagship-meta-box {
-  padding: 16px;
-  border-radius: 12px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.flagship-meta-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  color: var(--muted);
-}
-
-.flagship-file-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.flagship-file-list code {
-  display: inline-block;
-  padding: 3px 8px;
-  border-radius: 6px;
-  background: var(--surface-strong);
-  font-size: 12px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  color: var(--text);
-  border: 1px solid var(--border);
-}
-
-.flagship-usecases-text {
-  margin: 0;
-  font-size: 13px;
-  color: var(--muted);
-  line-height: 1.6;
-}
-
-.flagship-ready-for {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-  font-size: 12px;
-  color: var(--muted);
-  margin-top: auto;
-  padding-top: 8px;
-}
-
-.flagship-ready-for code {
-  padding: 2px 7px;
-  border-radius: 4px;
-  background: color-mix(in srgb, var(--accent-ink) 12%, transparent);
-  color: var(--accent-ink);
-  font-size: 11px;
-  font-weight: 600;
-}
-
-/* Code Snippet */
-.flagship-code-snippet {
-  margin-top: 24px;
-  border-radius: 20px;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  background: #0d1117;
-  color: #e6edf3;
-  box-shadow: var(--card-shadow);
-}
-
-.flagship-code-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 20px;
-  background: #161b22;
-  border-bottom: 1px solid #30363d;
-}
-
-.flagship-code-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #8b949e;
-}
-
-.flagship-code-tabs {
-  display: flex;
-  gap: 6px;
-}
-
-.flagship-code-tab {
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #8b949e;
-  border: 1px solid transparent;
-  transition: all .15s ease;
-}
-
-.flagship-code-tab:hover {
-  color: #c9d1d9;
-}
-
-.flagship-code-tab.is-active {
-  background: #21262d;
-  color: #58a6ff;
-  border-color: #30363d;
-}
-
-.flagship-code-body {
-  padding: 20px;
-  overflow-x: auto;
-}
-
-.flagship-code-body pre {
-  margin: 0;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 13px;
-  line-height: 1.6;
-}
-
-.flagship-code-body code {
-  font-family: inherit;
-  color: #e6edf3;
-}
-
-@media (max-width: 820px) {
-  .flagship-stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .flagship-domain-meta-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 500px) {
-  .flagship-stats-grid {
-    grid-template-columns: 1fr;
-  }
-  .flagship-actions {
-    flex-direction: column;
-  }
-  .flagship-actions .button {
-    width: 100%;
-  }
-}
-
 /* ==========================================================================
-   Featured Projects Container & AnaPharm Showcase
+   Featured Projects (Short Details)
    ========================================================================== */
 
 .projects-container {
   display: flex;
   flex-direction: column;
-  gap: 64px;
+  gap: 48px;
 }
 
 .projects-divider {
   height: 1px;
   width: 100%;
   background: linear-gradient(90deg, transparent, var(--border-strong), transparent);
-  margin: 8px 0;
 }
 
-.anapharm-hero-card {
-  border-color: color-mix(in srgb, var(--accent-ink) 35%, var(--border));
+.project-feature-card {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(28px, 4vw, 44px);
+  border: 1px solid var(--border-strong);
+  border-radius: 24px;
+  background:
+    radial-gradient(ellipse at 90% 10%, var(--glow-two), transparent 45%),
+    radial-gradient(ellipse at 10% 90%, var(--glow-one), transparent 45%),
+    var(--surface);
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 24px;
+}
+
+.project-feature-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.project-feature-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.project-feature-title {
+  margin: 0;
+  font-size: clamp(22px, 3.2vw, 30px);
+  letter-spacing: -.03em;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.25;
+}
+
+.project-feature-desc {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+  max-width: 860px;
 }
 
 .anapharm-tagline {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--accent-ink);
-  margin: -4px 0 12px;
+  margin: -6px 0 2px;
 }
 
 .anapharm-pulse-icon {
@@ -1476,521 +1225,48 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   box-shadow: 0 6px 24px color-mix(in srgb, var(--accent-ink) 35%, transparent);
 }
 
-.anapharm-interactive-panel {
-  margin-top: 24px;
-}
-
-.anapharm-demo-body {
+.project-highlights-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 9px;
 }
 
-/* BPM Simulation Controls */
-.anapharm-sim-container {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 22px;
-  padding: 24px;
-  background: var(--surface-strong);
-  border-radius: 18px;
-  border: 1px solid var(--border);
-}
-
-.anapharm-heart-visual {
+.project-highlights-list li {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 24px 16px;
-  text-align: center;
-}
-
-.anapharm-heart-beating {
-  color: #ef4444;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: heartbeat-dynamic infinite ease-in-out;
-  transform-origin: center center;
-}
-
-@keyframes heartbeat-dynamic {
-  0%, 100% { transform: scale(1); opacity: 0.92; }
-  18% { transform: scale(1.28); opacity: 1; filter: drop-shadow(0 0 14px rgba(239, 68, 68, 0.45)); }
-  35% { transform: scale(1.05); }
-  52% { transform: scale(1.18); filter: drop-shadow(0 0 8px rgba(239, 68, 68, 0.3)); }
-}
-
-.anapharm-beating-svg {
-  filter: drop-shadow(0 2px 8px rgba(239, 68, 68, 0.25));
-}
-
-.anapharm-ecg-line {
-  width: 100%;
-  height: 32px;
-  color: #ef4444;
-  opacity: 0.85;
-}
-
-.anapharm-ecg-svg {
-  width: 100%;
-  height: 100%;
-}
-
-.anapharm-sim-controls {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  justify-content: center;
-}
-
-.anapharm-sim-readout {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.anapharm-bpm-gauge {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-}
-
-.anapharm-bpm-number {
-  font-size: clamp(34px, 4vw, 44px);
-  font-weight: 800;
-  letter-spacing: -0.04em;
-  color: var(--text);
-  line-height: 1;
-}
-
-.anapharm-bpm-unit {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--muted);
-}
-
-.anapharm-state-indicator {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 13px;
-  font-weight: 600;
-  flex-wrap: wrap;
-}
-
-.anapharm-state-dot {
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.08);
-}
-
-.anapharm-cycle-time {
-  font-size: 12px;
-  color: var(--muted);
-  font-weight: 500;
-  margin-left: 6px;
-}
-
-.anapharm-slider-box {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  background: var(--surface);
-  padding: 14px 18px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-}
-
-.anapharm-slider-labels {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text);
-}
-
-.anapharm-slider {
-  width: 100%;
-  height: 6px;
-  border-radius: 999px;
-  accent-color: var(--accent-ink);
-  cursor: pointer;
-}
-
-.anapharm-slider-ticks {
-  display: flex;
-  justify-content: space-between;
-  font-size: 11px;
-  color: var(--muted);
-}
-
-.anapharm-preset-pills {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  font-size: 12px;
-  color: var(--muted);
-}
-
-.anapharm-preset-btn {
-  padding: 5px 12px;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text);
-  cursor: pointer;
-  transition: all .15s ease;
-}
-
-.anapharm-preset-btn:hover {
-  border-color: var(--border-strong);
-  background: var(--surface-strong);
-}
-
-/* Callout grid */
-.anapharm-callout-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-}
-
-.anapharm-feature-card {
-  padding: 16px;
-  border-radius: 12px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.anapharm-feature-card p {
-  margin: 0;
-  font-size: 13px;
-  color: var(--muted);
-  line-height: 1.55;
-}
-
-/* Layers selector */
-.anapharm-layers-selector {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-
-.anapharm-layer-btn {
-  padding: 14px 16px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: var(--surface-strong);
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  cursor: pointer;
-  transition: all .18s ease;
-}
-
-.anapharm-layer-btn:hover {
-  border-color: var(--border-strong);
-  transform: translateY(-1px);
-}
-
-.anapharm-layer-btn.is-selected {
-  background: var(--surface);
-  border-color: var(--accent-ink);
-  box-shadow: 0 0 0 1px var(--accent-ink);
-}
-
-.anapharm-layer-system {
-  font-size: 10px;
-  font-weight: 700;
-  color: var(--accent-ink);
-  text-transform: uppercase;
-  letter-spacing: .05em;
-}
-
-.anapharm-layer-btn strong {
-  font-size: 13px;
-  color: var(--text);
-}
-
-.anapharm-layer-card {
-  padding: 22px;
-  border-radius: 16px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.anapharm-layer-header {
-  display: flex;
-  justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
   gap: 10px;
-}
-
-.anapharm-layer-header h4 {
-  margin: 0;
-  font-size: clamp(18px, 2vw, 22px);
-  letter-spacing: -.02em;
-}
-
-.anapharm-tech-pill {
-  display: inline-flex;
-  align-items: center;
-  padding: 4px 10px;
-  border-radius: 6px;
-  background: var(--surface-strong);
-  border: 1px solid var(--border);
-  font-size: 12px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  color: var(--text);
-}
-
-.anapharm-specs-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 4px;
-}
-
-.anapharm-specs-label {
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  color: var(--muted);
-}
-
-.anapharm-spec-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--text);
-  padding: 3px 8px;
-  border-radius: 6px;
-  background: var(--surface-strong);
-  border: 1px solid var(--border);
-}
-
-/* Medicine Search Preview */
-.anapharm-med-searchbar {
-  position: relative;
-}
-
-.anapharm-search-icon {
-  position: absolute;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--muted);
-  pointer-events: none;
-}
-
-.anapharm-search-input {
-  width: 100%;
-  padding: 12px 14px 12px 42px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
   font-size: 14px;
-  outline: none;
-  transition: border-color .15s ease;
-}
-
-.anapharm-search-input:focus {
-  border-color: var(--accent-ink);
-}
-
-.anapharm-med-quickpicks {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  font-size: 12px;
-  color: var(--muted);
-}
-
-.anapharm-quick-label {
-  font-weight: 600;
-}
-
-.anapharm-quick-btn {
-  padding: 5px 12px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  font-size: 12px;
-  font-weight: 600;
   color: var(--text);
-  cursor: pointer;
-  transition: all .15s ease;
+  line-height: 1.5;
 }
 
-.anapharm-quick-btn:hover {
-  border-color: var(--border-strong);
-}
-
-.anapharm-quick-btn.is-active {
-  background: var(--text);
-  color: var(--bg);
-  border-color: var(--text);
-}
-
-.anapharm-med-preview-card {
-  padding: 24px;
-  border-radius: 18px;
-  background: var(--surface-strong);
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.anapharm-med-preview-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 14px;
-}
-
-.anapharm-cat-tag {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 700;
+.highlight-icon {
   color: var(--accent-ink);
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  margin-bottom: 4px;
+  flex-shrink: 0;
+  margin-top: 3px;
 }
 
-.anapharm-med-title {
-  margin: 0 0 4px;
-  font-size: clamp(20px, 2.5vw, 24px);
-  font-weight: 800;
-  letter-spacing: -.02em;
-}
-
-.anapharm-generic-name {
-  font-weight: 600;
-  color: var(--muted);
-  font-size: 0.9em;
-}
-
-.anapharm-mfg {
-  margin: 0;
-  font-size: 13px;
-  color: var(--muted);
-  font-weight: 500;
-}
-
-.anapharm-dosage-pill {
-  padding: 8px 14px;
-  border-radius: 10px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  text-align: right;
-}
-
-.anapharm-dosage-pill span {
-  font-size: 10px;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: .04em;
-  font-weight: 700;
-}
-
-.anapharm-dosage-pill strong {
-  font-size: 13px;
-  color: var(--text);
-}
-
-.anapharm-indication-box {
-  padding: 16px;
-  border-radius: 12px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.anapharm-ind-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--accent-ink);
-}
-
-.anapharm-ind-text {
-  margin: 0;
-  font-size: 15px;
-  line-height: 1.6;
-  color: var(--text);
-}
-
-.anapharm-med-meta-tags {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.anapharm-tag-item {
-  padding: 4px 10px;
-  border-radius: 6px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--muted);
+.project-compact-stats {
+  margin-top: 10px;
 }
 
 @media (max-width: 820px) {
-  .anapharm-sim-container {
-    grid-template-columns: 1fr;
-  }
-  .anapharm-layers-selector {
+  .flagship-stats-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .anapharm-callout-grid {
-    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 500px) {
-  .anapharm-layers-selector {
+  .flagship-stats-grid {
     grid-template-columns: 1fr;
   }
-  .anapharm-dosage-pill {
-    text-align: left;
+  .flagship-actions {
+    flex-direction: column;
+  }
+  .flagship-actions .button {
     width: 100%;
   }
 }
