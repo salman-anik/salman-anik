@@ -49,7 +49,7 @@ I'm a CSE student interested in **Artificial Intelligence, Machine Learning, Dat
 ### Web Development
 
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,react" />
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs" />
 </p>
 
 ### Data & Machine Learning
