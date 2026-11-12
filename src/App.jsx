@@ -1,3 +1,5 @@
+'use client'
+
 import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -10,11 +12,18 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
-  const [theme, setTheme] = useState(() => {
+  const [theme, setTheme] = useState('light')
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
     const saved = localStorage.getItem('salman-theme')
-    if (saved) return saved
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-  })
+    if (saved) {
+      setTheme(saved)
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('dark')
+    }
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     const elements = document.querySelectorAll('.reveal')
@@ -40,9 +49,10 @@ function App() {
   }, [])
 
   useEffect(() => {
+    if (!mounted) return
     document.documentElement.dataset.theme = theme
     localStorage.setItem('salman-theme', theme)
-  }, [theme])
+  }, [theme, mounted])
 
   const toggleTheme = () => setTheme((current) => current === 'light' ? 'dark' : 'light')
 
