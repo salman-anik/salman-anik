@@ -17,10 +17,8 @@ function App() {
 
   useEffect(() => {
     const saved = localStorage.getItem('salman-theme')
-    if (saved) {
+    if (saved === 'light' || saved === 'dark') {
       setTheme(saved)
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark')
     }
     setMounted(true)
   }, [])
