@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Salman Anik
@@ -14,6 +13,9 @@
   </a>
   <a href="https://portfolio-dun-nine-54.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Visit-111111?style=flat-square&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="https://github.com/lasmanknia">
+    <img src="https://img.shields.io/badge/Childhood_GitHub-lasmanknia-181717?style=flat-square&logo=github&logoColor=white" />
   </a>
 </p>
 
@@ -35,6 +37,7 @@ I'm a CSE student interested in **Artificial Intelligence, Machine Learning, Dat
 * 🗄️ Working with **SQL & Databases**
 * 🚀 Building my skills through practical projects
 * 🎯 Goal: Turn data into useful insights and solutions
+* 🕰️ Childhood GitHub Profile: [@lasmanknia](https://github.com/lasmanknia)
 
 ---
 
