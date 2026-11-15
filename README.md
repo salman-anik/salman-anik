@@ -150,6 +150,22 @@ A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**,
 
 ---
 
+### 4. 📚 [Bangladesh Biggest eBook Library](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library) — Open-Access Digital Library
+
+<div align="center">
+
+[![Live Web App](https://img.shields.io/badge/Live_Library-GitHub_Pages-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FBangladesh--Biggest--eBook--Library-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library)
+
+</div>
+
+An open-access digital library indexing Bangla & English PDF/EPUB books across **25 categories** with direct Google Drive links:
+* 📖 **NCTB Textbooks:** Complete school curriculum coverage from Class 1 to Class 12.
+* 🔬 **Diverse Categories:** Science, engineering, literature, Islamic studies, and BCS preparation resources.
+* 🌐 **Instant Web Access:** Lightweight static interface hosted on GitHub Pages for fast browsing on mobile and desktop.
+
+---
+
 ## 🔥 Contribution Activity
 
 <div align="center">
