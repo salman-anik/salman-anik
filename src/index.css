@@ -1434,3 +1434,103 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
     width: 100%;
   }
 }
+
+/* ==========================================================================
+   My Thoughts Section (AI Adaptation)
+   ========================================================================== */
+
+.thought-feature-card {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(24px, 4vw, 40px);
+  border: 1px solid var(--border-strong);
+  border-radius: 22px;
+  background:
+    radial-gradient(ellipse at 92% 8%, var(--glow-two), transparent 48%),
+    radial-gradient(ellipse at 8% 92%, var(--glow-one), transparent 48%),
+    var(--surface);
+  box-shadow: var(--card-shadow);
+  display: grid;
+  gap: 18px;
+}
+
+.thought-quote-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.thought-title {
+  margin: 0;
+  font-size: clamp(20px, 2.8vw, 28px);
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+}
+
+.thought-prose {
+  display: grid;
+  gap: 12px;
+  max-width: 860px;
+}
+
+.thought-prose p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+.thought-prose strong {
+  color: var(--text);
+}
+
+.thought-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.thought-pillar-card {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface-strong);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.thought-pillar-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-strong);
+}
+
+.thought-pillar-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.thought-pillar-head h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.thought-pillar-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+@media (max-width: 860px) {
+  .thought-pillars-grid {
+    grid-template-columns: 1fr;
+  }
+}
