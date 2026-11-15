@@ -1,55 +1,110 @@
-import { BookOpen, Feather } from 'lucide-react'
-import AnaPharmProject from './AnaPharmProject'
+import { BookOpen, Database, Feather, HeartPulse } from 'lucide-react'
 import FeaturedProjectCard from './FeaturedProjectCard'
-import FlagshipProject from './FlagshipProject'
 
-const extraProjects = [
+const featuredProjects = [
   {
     id: 'albartross-sa',
-    kicker: 'PROJECT 03 / 3D PROCEDURAL WEBGL FLIGHT',
-    title: 'Albartross SA — 3D Procedural WebGL Flight Experience',
-    tagline: 'Glide across endless islands, misty rivers, and open sea.',
+    kicker: '01 / 3D PROCEDURAL WEBGL',
+    title: 'Albartross SA',
+    tagline: 'Procedural 3D flight over islands, misty rivers, and open sea.',
     description:
-      'A procedural 3D WebGL flight experience built with Three.js and Next.js. Soar as an albatross over streaming islands, coastal foam, waterfalls, and stone monoliths alongside a glowing pink companion bird, complete with dynamic weather, day/night cycles, and a rotating mini-map.',
+      'A Three.js and Next.js WebGL flight world where you glide as an albatross alongside a glowing pink companion bird through dynamic weather and day/night cycles.',
     statusLabel: 'Live Web App',
-    tags: ['Three.js / WebGL', 'Next.js', 'Procedural World'],
+    tags: ['Three.js', 'Next.js', 'WebGL'],
     icon: Feather,
+    image: '/projects/albartross.jpg',
+    imageAlt: 'Albartross SA two birds flying together over a flower island',
     highlights: [
-      'Infinite streaming terrain with islands, waterfalls, coastal foam, stone heads, pillars, and obelisks',
-      'Pink companion albatross with independent roaming, side-by-side Fly Together mode, and explore-together guidance',
-      'Dynamic day/night cycle, sun and moon arcs, clouds, rain, wind gusts, snow, and sea ice floes',
-      'Fullscreen mobile PWA support with touch drag-to-steer, hold-to-boost, and rotating mini-map',
+      'Infinite streaming islands, waterfalls, coastal foam, and stone monoliths',
+      'Pink companion bird with roaming AI, Fly Together mode, and explore-together guidance',
+      'Day/night sky, mist, rain, snow, sea ice floes, rotating mini-map, and mobile PWA',
     ],
     stats: [
-      { value: '3D WebGL', label: 'Three.js Engine', desc: 'Custom shaders & streaming terrain' },
-      { value: 'Dynamic', label: 'Weather & Sky', desc: 'Day/night, mist, rain, snow & ice' },
-      { value: 'Companion', label: 'Partner Bird', desc: 'Roam, follow & Fly Together mode' },
-      { value: 'Mobile PWA', label: 'Touch & Desktop', desc: 'Fullscreen touch steer & boost' },
+      { value: '3D WebGL', label: 'Three.js Shaders' },
+      { value: 'Companion', label: 'Partner Bird AI' },
+      { value: 'Dynamic', label: 'Weather & Sky' },
+      { value: 'Mobile PWA', label: 'Touch & Fullscreen' },
     ],
     liveUrl: 'https://albartross-sa.vercel.app/',
+    liveLabel: 'Fly Live',
     githubUrl: 'https://github.com/salman-anik/Albartross-SA',
   },
   {
-    id: 'ebook-library',
-    kicker: 'PROJECT 04 / OPEN-ACCESS DIGITAL LIBRARY',
-    title: 'Bangladesh Biggest eBook Library',
-    tagline: 'Free Bangla & English academic, literature, and competitive exam books.',
+    id: 'anapharm',
+    kicker: '02 / 3D HEALTHCARE & PHARMACOLOGY',
+    title: 'AnaPharm',
+    tagline: '3D Human Anatomy & Bangladesh Medicine Database.',
     description:
-      "An open-access digital library indexing Bangla and English PDF/EPUB books across 25 categories, including all NCTB textbooks (Class 1–12), Islamic books, literature, science, engineering, and BCS preparation resources with direct Google Drive links.",
-    statusLabel: 'Live Web App',
-    tags: ['HTML / CSS / JS', '25 Categories', 'Open Access'],
-    icon: BookOpen,
+      'Bilingual (Bangla/English) 3D anatomy viewer and pharmaceutical directory combining WebGL dissection and physiological simulations with 33,200+ Bangladesh medicine brands.',
+    statusLabel: 'Web & APK',
+    tags: ['Three.js', 'React Native', 'Expo'],
+    icon: HeartPulse,
+    image: '/projects/anapharm.png',
+    imageAlt: 'AnaPharm 3D Human Anatomy Viewer',
     highlights: [
-      'Complete NCTB textbooks from Class 1 to Class 12 alongside Bangla & English PDF/EPUB collections',
-      '25 organized categories covering science, engineering, literature, Islamic studies, and BCS prep',
-      'Fast client-side search and category browsing with direct Google Drive access links',
-      'Lightweight static web interface hosted on GitHub Pages for instant access on mobile and desktop',
+      '360° 3D human anatomy with layered dissection, exploded view, and X-ray mode',
+      'Real-time cardiac BPM, lung respiration, and blood circulation simulations',
+      '33,200+ commercial brands and 2,594 generic medicines with Bangla indications',
     ],
     stats: [
-      { value: '25', label: 'Book Categories', desc: 'Academic, literature, STEM & BCS' },
-      { value: 'Class 1–12', label: 'NCTB Textbooks', desc: 'Full school curriculum coverage' },
-      { value: 'PDF / EPUB', label: 'Bilingual Library', desc: 'Bangla & English collections' },
-      { value: 'Open Access', label: 'GitHub Pages', desc: 'Direct Google Drive links' },
+      { value: '33,200+', label: 'Medicine Brands' },
+      { value: '2,594', label: 'Generic Drugs' },
+      { value: '3D WebGL', label: 'Anatomy Layers' },
+      { value: 'v3.5', label: 'Web & Android APK' },
+    ],
+    liveUrl: 'https://anapharm.vercel.app/',
+    liveLabel: 'Launch App',
+    githubUrl: 'https://github.com/salman-anik/AnaPharm',
+    extraAction: {
+      label: 'APK',
+      url: 'https://github.com/salman-anik/AnaPharm/releases',
+    },
+  },
+  {
+    id: 'bangladesh-public-database',
+    kicker: '03 / OPEN-SOURCE DATA INFRASTRUCTURE',
+    title: 'Bangladesh Biggest Public Database',
+    tagline: 'Structured national datasets in JSON, CSV, and GeoJSON.',
+    description:
+      'Centralizes fragmented civic, health, geographic, banking, educational, legal, and transport records across Bangladesh into clean, AI/ML-ready open datasets.',
+    statusLabel: 'Active Open Data',
+    tags: ['JSON / CSV', 'GeoJSON', 'Next.js'],
+    icon: Database,
+    highlights: [
+      'All 8 divisions, 64 districts, 495+ upazilas, unions, and postal codes',
+      '22+ MB medicine registry, 40,000+ schools with EIIN, hospitals, and bank routing',
+      'Bangladesh Constitution, Penal Code, CrPC, railway routes, and emergency contacts',
+    ],
+    stats: [
+      { value: '22', label: 'Dataset Domains' },
+      { value: '40,000+', label: 'Schools Indexed' },
+      { value: '2.33 TB', label: 'Drive Mirror' },
+      { value: 'MIT', label: 'Open License' },
+    ],
+    liveUrl: 'https://bangladesh-biggest-public-database.vercel.app/',
+    liveLabel: 'Explore Data',
+    githubUrl: 'https://github.com/salman-anik/Bangladesh-Biggest-Public-Database',
+  },
+  {
+    id: 'ebook-library',
+    kicker: '04 / OPEN-ACCESS DIGITAL LIBRARY',
+    title: 'Bangladesh Biggest eBook Library',
+    tagline: 'Bangla & English PDF/EPUB books across 25 categories.',
+    description:
+      'An open-access digital library indexing NCTB textbooks (Class 1–12), Islamic books, literature, science, engineering, and BCS preparation resources with direct links.',
+    statusLabel: 'Live Library',
+    tags: ['25 Categories', 'PDF / EPUB', 'GitHub Pages'],
+    icon: BookOpen,
+    highlights: [
+      'Complete NCTB school curriculum textbooks from Class 1 to Class 12',
+      'Curated Bangla and English science, engineering, literature, and BCS books',
+      'Fast client-side search and category filtering with direct Google Drive links',
+    ],
+    stats: [
+      { value: '25', label: 'Categories' },
+      { value: 'Class 1–12', label: 'NCTB Books' },
+      { value: 'Bilingual', label: 'Bangla & English' },
+      { value: 'Free', label: 'Open Access' },
     ],
     liveUrl: 'https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/',
     liveLabel: 'Visit Library',
@@ -64,19 +119,13 @@ function Projects() {
         <p className="eyebrow">04 / FEATURED PROJECTS</p>
         <h2>Featured Projects</h2>
         <p className="section-intro">
-          Four featured engineering, 3D WebGL, and open-knowledge initiatives developed and maintained on GitHub — spanning 3D medical simulation, procedural WebGL flight, large-scale Bangladesh public data, and open digital education.
+          Four flagship engineering, 3D WebGL, and open-data projects built and maintained on GitHub.
         </p>
       </div>
 
-      <div className="projects-container">
-        <AnaPharmProject />
-        <div className="projects-divider" aria-hidden="true" />
-        <FlagshipProject />
-        {extraProjects.map((project) => (
-          <div key={project.id}>
-            <div className="projects-divider" aria-hidden="true" />
-            <FeaturedProjectCard {...project} />
-          </div>
+      <div className="projects-bento-grid">
+        {featuredProjects.map((project) => (
+          <FeaturedProjectCard key={project.id} {...project} />
         ))}
       </div>
     </section>

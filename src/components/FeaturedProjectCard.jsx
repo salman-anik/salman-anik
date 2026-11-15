@@ -1,4 +1,4 @@
-import { ArrowUpRight, CheckCircle2, Github } from 'lucide-react'
+import { ArrowUpRight, CheckCircle2, Download, Github } from 'lucide-react'
 
 function FeaturedProjectCard({
   id,
@@ -9,15 +9,18 @@ function FeaturedProjectCard({
   statusLabel,
   tags,
   icon: Icon,
+  image,
+  imageAlt,
   highlights,
   stats,
   liveUrl,
-  liveLabel = 'Launch Web App',
+  liveLabel = 'Launch App',
   githubUrl,
+  extraAction,
 }) {
   return (
-    <article className="project-feature-card reveal" id={id}>
-      <div className="project-feature-header">
+    <article className="project-bento-card reveal" id={id}>
+      <div className="project-bento-top">
         <div className="flagship-status-tags">
           <span className="flagship-status-badge anapharm-badge">
             <span className="flagship-pulse-dot anapharm-pulse" aria-hidden="true" />
@@ -29,47 +32,48 @@ function FeaturedProjectCard({
             </span>
           ))}
         </div>
-        {Icon && <Icon size={24} className="anapharm-pulse-icon" aria-hidden="true" />}
+        {Icon && <Icon size={20} className="anapharm-pulse-icon" aria-hidden="true" />}
       </div>
 
-      <div className="project-feature-body">
-        <p className="card-kicker">{kicker}</p>
-        <h3 className="project-feature-title">{title}</h3>
-        {tagline && (
-          <p className="anapharm-tagline">
-            <em>{tagline}</em>
-          </p>
-        )}
-        <p className="project-feature-desc">{description}</p>
+      {image && (
+        <div className="project-bento-media">
+          <img src={image} alt={imageAlt || title} loading="lazy" />
+        </div>
+      )}
 
-        <ul className="project-highlights-list">
+      <div className="project-bento-body">
+        <p className="card-kicker">{kicker}</p>
+        <h3 className="project-bento-title">{title}</h3>
+        {tagline && <p className="project-bento-tagline">{tagline}</p>}
+        <p className="project-bento-desc">{description}</p>
+
+        <ul className="project-bento-highlights">
           {highlights.map((item) => (
             <li key={item}>
-              <CheckCircle2 size={16} className="highlight-icon" aria-hidden="true" />
+              <CheckCircle2 size={15} className="highlight-icon" aria-hidden="true" />
               <span>{item}</span>
             </li>
           ))}
         </ul>
 
-        <div className="flagship-stats-grid project-compact-stats">
+        <div className="project-bento-stats">
           {stats.map((s) => (
-            <div className="flagship-stat-card" key={s.label}>
-              <span className="flagship-stat-value">{s.value}</span>
-              <strong className="flagship-stat-label">{s.label}</strong>
-              <span className="flagship-stat-desc">{s.desc}</span>
+            <div className="project-bento-stat" key={s.label}>
+              <span className="project-bento-stat-value">{s.value}</span>
+              <span className="project-bento-stat-label">{s.label}</span>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="flagship-actions">
+      <div className="project-bento-actions">
         <a
           className="button button-dark anapharm-primary-btn"
           href={liveUrl}
           target="_blank"
           rel="noreferrer"
         >
-          {liveLabel} <ArrowUpRight size={17} aria-hidden="true" />
+          {liveLabel} <ArrowUpRight size={16} aria-hidden="true" />
         </a>
         <a
           className="button button-outline"
@@ -77,8 +81,18 @@ function FeaturedProjectCard({
           target="_blank"
           rel="noreferrer"
         >
-          Source Code <Github size={17} aria-hidden="true" />
+          GitHub <Github size={16} aria-hidden="true" />
         </a>
+        {extraAction && (
+          <a
+            className="button button-outline"
+            href={extraAction.url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {extraAction.label} <Download size={16} aria-hidden="true" />
+          </a>
+        )}
       </div>
     </article>
   )
