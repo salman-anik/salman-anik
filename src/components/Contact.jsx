@@ -17,7 +17,6 @@ function Contact() {
         <div className="contact-links">
           <a href="https://github.com/salman-anik" target="_blank" rel="noreferrer"><Github size={17} /> GitHub ↗</a>
           <a href="https://www.linkedin.com/in/salman-anik-5a7015294" target="_blank" rel="noreferrer"><Linkedin size={17} /> LinkedIn ↗</a>
-          <a href="https://leetcode.com/u/salmananik/" target="_blank" rel="noreferrer"><Code2 size={17} /> LeetCode ↗</a>
         </div>
       </div>
     </section>

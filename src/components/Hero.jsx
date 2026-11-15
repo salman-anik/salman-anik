@@ -42,7 +42,6 @@ function Hero() {
         <div className="social-row">
           <a href="https://github.com/salman-anik" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={18} /></a>
           <a href="https://www.linkedin.com/in/salman-anik-5a7015294" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={18} /></a>
-          <a href="https://leetcode.com/u/salmananik/" target="_blank" rel="noreferrer" aria-label="LeetCode"><Code2 size={18} /></a>
         </div>
 
         <button className="scroll-cue" onClick={() => scrollToElement(document.getElementById('about'))}>
