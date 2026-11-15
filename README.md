@@ -133,6 +133,23 @@ The largest open-source collection of structured Bangladesh public data, organiz
 
 ---
 
+### 3. 🕊️ [Albartross SA](https://github.com/salman-anik/Albartross-SA) — 3D Procedural WebGL Flight Experience
+
+<div align="center">
+
+[![Live Web App](https://img.shields.io/badge/Live_App-albartross--sa.vercel.app-1d3557?style=for-the-badge&logo=vercel&logoColor=white)](https://albartross-sa.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FAlbartross--SA-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/Albartross-SA)
+
+</div>
+
+A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**, where you glide as an albatross across endless islands, misty rivers, and open sea:
+* 🌍 **Procedural World:** Infinite streaming terrain with islands, waterfalls, coastal foam, stone heads, pillars, obelisks, and rotating mini-map navigation.
+* 🩷 **Companion Albatross:** A glowing pink partner bird with its own flight behavior—explore together when following it, or trigger side-by-side flight with the **Fly Together** button.
+* 🌦️ **Dynamic Atmosphere:** Real-time day/night cycle, sun/moon arcs, stars, clouds, rain, wind gusts, snow accumulation, and sea ice floes.
+* 📱 **Cross-Platform & Mobile Fullscreen:** Smooth keyboard/mouse controls and mobile touch drag-to-steer with hold-to-boost, plus fullscreen PWA support.
+
+---
+
 ## 🔥 Contribution Activity
 
 <div align="center">
