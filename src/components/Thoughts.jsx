@@ -22,7 +22,7 @@ function Thoughts() {
   return (
     <section className="section-shell section" id="thoughts">
       <div className="section-heading reveal">
-        <p className="eyebrow">05 / MY THOUGHTS</p>
+        <p className="eyebrow">02 / MY THOUGHTS</p>
         <h2>My Thoughts on AI Adaptation</h2>
         <p className="section-intro">
           Why embracing AI—just like embracing the calculator—is essential for thriving in the modern world.

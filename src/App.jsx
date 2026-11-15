@@ -61,11 +61,11 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Thoughts />
         <Skills />
         <Education />
         <Learning />
         <Projects />
-        <Thoughts />
         <Contact />
       </main>
       <Footer />

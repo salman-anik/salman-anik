@@ -4,10 +4,10 @@ import { scrollToElement, scrollToTop } from '../utils/smoothScroll'
 
 const links = [
   ['About', 'about'],
+  ['Thoughts', 'thoughts'],
   ['Skills', 'skills'],
   ['Education', 'education'],
   ['Projects', 'projects'],
-  ['Thoughts', 'thoughts'],
   ['Contact', 'contact'],
 ]
 
