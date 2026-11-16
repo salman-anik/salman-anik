@@ -34,8 +34,8 @@ function Hero() {
           <a className="button button-dark" href="https://github.com/salman-anik" target="_blank" rel="noreferrer">
             View GitHub <ArrowUpRight size={17} />
           </a>
-          <a className="button button-outline" href="/Salman-Anik-CV.pdf" download>
-            Download CV <ArrowDown size={17} />
+          <a className="button button-outline" href="/Salman-Anik-Resume.pdf" download>
+            Download Resume <ArrowDown size={17} />
           </a>
         </div>
 

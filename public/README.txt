@@ -4,8 +4,8 @@ Place your personal files in this public folder:
    - Your profile photo.
    - The site automatically displays it in the hero section.
 
-2. Salman-Anik-CV.pdf
-   - Your real CV.
-   - The Download CV and Resume buttons link to this exact filename.
+2. Salman-Anik-Resume.pdf
+   - Your real Resume.
+   - The Download Resume and Resume buttons link to this exact filename.
 
 These files are intentionally not included in the project ZIP.

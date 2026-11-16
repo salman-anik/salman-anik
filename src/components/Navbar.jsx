@@ -30,7 +30,7 @@ function Navbar({ theme, onToggleTheme }) {
           {links.map(([label, id]) => (
             <button key={id} onClick={() => goTo(id)}>{label}</button>
           ))}
-          <a className="nav-resume" href="/Salman-Anik-CV.pdf" download>
+          <a className="nav-resume" href="/Salman-Anik-Resume.pdf" download>
             Resume <ArrowDownToLine size={14} />
           </a>
         </div>
