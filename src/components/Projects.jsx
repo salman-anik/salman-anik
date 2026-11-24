@@ -1,4 +1,4 @@
-import { BookOpen, Database, Feather, HeartPulse } from 'lucide-react'
+import { BookOpen, Database, Feather, HeartPulse, Smartphone } from 'lucide-react'
 import FeaturedProjectCard from './FeaturedProjectCard'
 
 const featuredProjects = [
@@ -61,8 +61,37 @@ const featuredProjects = [
     },
   },
   {
+    id: 'anabook',
+    kicker: '03 / OFFLINE-FIRST ANDROID READER',
+    title: 'AnaBook',
+    tagline: 'Offline-first Android eBook reader for 29,178+ Bangla, English & NCTB books.',
+    description:
+      'Standalone React Native & Expo mobile reader with 5 tactile reading themes, batch offline folder downloads, full Series & Collections shortcut browsing, and built-in in-app APK updates.',
+    statusLabel: 'Web & APK',
+    tags: ['React Native', 'Expo', 'TypeScript'],
+    icon: Smartphone,
+    highlights: [
+      'Instant search & browsing across 29,178+ verified books and 19,254+ Series & Collections links',
+      '5 reading themes (Espresso, Matcha, Midnight, Sepia, Rosewood), offline shelf & batch folder downloads',
+      'Built-in in-app APK updater with live progress tracking and automated GitHub Actions release builds',
+    ],
+    stats: [
+      { value: '29,178+', label: 'eBooks Indexed' },
+      { value: '5 Themes', label: 'Reader Modes' },
+      { value: 'Offline', label: 'Batch Downloads' },
+      { value: 'v1.1.4', label: 'Android APK' },
+    ],
+    liveUrl: 'https://anabook-bd.vercel.app/',
+    liveLabel: 'Launch Web',
+    githubUrl: 'https://github.com/salman-anik/AnaBook',
+    extraAction: {
+      label: 'APK',
+      url: 'https://github.com/salman-anik/AnaBook/releases/latest/download/AnaBook.apk',
+    },
+  },
+  {
     id: 'bangladesh-public-database',
-    kicker: '03 / OPEN-SOURCE DATA INFRASTRUCTURE',
+    kicker: '04 / OPEN-SOURCE DATA INFRASTRUCTURE',
     title: 'Bangladesh Biggest Public Database',
     tagline: 'Structured national datasets in JSON, CSV, and GeoJSON.',
     description:
@@ -87,26 +116,26 @@ const featuredProjects = [
   },
   {
     id: 'ebook-library',
-    kicker: '04 / OPEN-ACCESS DIGITAL LIBRARY',
+    kicker: '05 / OPEN-ACCESS DIGITAL LIBRARY',
     title: 'Bangladesh Biggest eBook Library',
-    tagline: 'Bangla & English PDF/EPUB books across 25 categories.',
+    tagline: '29,178+ verified Bangla, English & NCTB books mirrored with Google Drive.',
     description:
-      'An open-access digital library indexing NCTB textbooks (Class 1–12), Islamic books, literature, science, engineering, and BCS preparation resources with direct links.',
+      'An open-access Next.js digital library & 319.4 GB Google Drive archive indexing NCTB textbooks (Class 1–12), Tafsir, Hadith, classic Bangla literature, and 19,254+ Series & Collections shortcut links.',
     statusLabel: 'Live Library',
-    tags: ['25 Categories', 'PDF / EPUB', 'GitHub Pages'],
+    tags: ['Next.js', '29,178+ Books', 'Google Drive'],
     icon: BookOpen,
     highlights: [
-      'Complete NCTB school curriculum textbooks from Class 1 to Class 12',
-      'Curated Bangla and English science, engineering, literature, and BCS books',
-      'Fast client-side search and category filtering with direct Google Drive links',
+      '29,178+ verified PDF/EPUB books across Bangla, English, Islamic & Class 1–12 NCTB textbooks',
+      'Automated Google Drive shortcut sync exposing 19,254+ Series & Collections links without duplication',
+      'Fast client-side search, cover previews, and 1-click Series filtering deployed on Vercel & GitHub Pages',
     ],
     stats: [
-      { value: '25', label: 'Categories' },
-      { value: 'Class 1–12', label: 'NCTB Books' },
-      { value: 'Bilingual', label: 'Bangla & English' },
-      { value: 'Free', label: 'Open Access' },
+      { value: '29,178+', label: 'Verified Books' },
+      { value: '319.4 GB', label: 'Drive Archive' },
+      { value: '19,254+', label: 'Series Links' },
+      { value: 'Class 1–12', label: 'NCTB Textbooks' },
     ],
-    liveUrl: 'https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/',
+    liveUrl: 'https://anabook-bd.vercel.app/library',
     liveLabel: 'Visit Library',
     githubUrl: 'https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library',
   },
@@ -119,7 +148,7 @@ function Projects() {
         <p className="eyebrow">04 / FEATURED PROJECTS</p>
         <h2>Featured Projects</h2>
         <p className="section-intro">
-          Four flagship engineering, 3D WebGL, and open-data projects built and maintained on GitHub.
+          Five flagship engineering, mobile, 3D WebGL, and open-data projects built and maintained on GitHub.
         </p>
       </div>
 

@@ -150,19 +150,37 @@ A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**,
 
 ---
 
-### 4. 📚 [Bangladesh Biggest eBook Library](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library) — Open-Access Digital Library
+### 4. 📱 [AnaBook](https://github.com/salman-anik/AnaBook) — Offline-First Android eBook Reader
 
 <div align="center">
 
-[![Live Web App](https://img.shields.io/badge/Live_Library-GitHub_Pages-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/)
+[![Live Web App](https://img.shields.io/badge/Live_Portal-anabook--bd.vercel.app-0F1115?style=for-the-badge&logo=vercel&logoColor=white)](https://anabook-bd.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FAnaBook-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/AnaBook)
+[![Download APK](https://img.shields.io/badge/Download_APK-Release_v1.1.4-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/salman-anik/AnaBook/releases/latest/download/AnaBook.apk)
+
+</div>
+
+A standalone **React Native & Expo** Android reader app engineered to carry **29,178+ verified Bangla, English & NCTB academic books** offline in your pocket:
+* 🎨 **5 Reading Themes & Custom Typography:** Espresso, Matcha, Midnight, Sepia, and Rosewood themes in Dark/Light modes with scalable typography.
+* 📥 **Offline Shelf & Batch Folder Downloads:** Save entire classes, authors, or series collections for 100% offline reading with zero-duplication Drive shortcut indexing.
+* 🔄 **Built-in In-App Updater:** Live progress bar APK downloader, native Android package installer trigger, and automatic temporary cache cleanup.
+
+---
+
+### 5. 📚 [Bangladesh Biggest eBook Library](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library) — Open-Access Digital Library
+
+<div align="center">
+
+[![Live Web Library](https://img.shields.io/badge/Live_Library-anabook--bd.vercel.app%2Flibrary-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://anabook-bd.vercel.app/library)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Online_Portal-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FBangladesh--Biggest--eBook--Library-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library)
 
 </div>
 
-An open-access digital library indexing Bangla & English PDF/EPUB books across **25 categories** with direct Google Drive links:
-* 📖 **NCTB Textbooks:** Complete school curriculum coverage from Class 1 to Class 12.
-* 🔬 **Diverse Categories:** Science, engineering, literature, Islamic studies, and BCS preparation resources.
-* 🌐 **Instant Web Access:** Lightweight static interface hosted on GitHub Pages for fast browsing on mobile and desktop.
+An open-access Next.js digital library & **319.4 GB Google Drive archive** indexing **29,178+ verified eBooks** and **19,254+ Series & Collections shortcut links**:
+* 📖 **NCTB Textbooks & Academic Series:** Complete Class 1 to Class 12 curriculum alongside Hadith, Tafsir, Seerah, and classic Bangla series.
+* 🤖 **Automated Drive Sync:** Python CI pipeline walking live Google Drive trees and publishing compact catalog updates for both the web portal and Android app.
+* 🌐 **Instant Web Access:** Mobile-responsive Next.js Explorer deployed on both Vercel and GitHub Pages for fast filtering and 1-click previews.
 
 ---
 

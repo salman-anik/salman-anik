@@ -1282,6 +1282,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   align-items: stretch;
 }
 
+@media (min-width: 901px) {
+  .projects-bento-grid > .project-bento-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+}
+
 .project-bento-card {
   position: relative;
   overflow: hidden;
