@@ -8,6 +8,7 @@ const links = [
   ['Skills', 'skills'],
   ['Education', 'education'],
   ['Projects', 'projects'],
+  ['Data Projects', 'data-collection'],
   ['Contact', 'contact'],
 ]
 

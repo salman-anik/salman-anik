@@ -106,7 +106,43 @@ An interactive 3D human anatomy and pharmaceutical reference application combini
 
 ---
 
-### 2. 🗄️ [Bangladesh Biggest Public Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database) — Open-Source Public Data Infrastructure
+### 2. 📱 [AnaBook](https://github.com/salman-anik/AnaBook) — Offline-First Android eBook Reader
+
+<div align="center">
+
+[![Live Web App](https://img.shields.io/badge/Live_Portal-anabook--bd.vercel.app-0F1115?style=for-the-badge&logo=vercel&logoColor=white)](https://anabook-bd.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FAnaBook-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/AnaBook)
+[![Download APK](https://img.shields.io/badge/Download_APK-Release_v1.1.4-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/salman-anik/AnaBook/releases/latest/download/AnaBook.apk)
+
+</div>
+
+A standalone **React Native & Expo** Android reader app engineered to carry **29,178+ verified Bangla, English & NCTB academic books** offline in your pocket:
+* 🎨 **5 Reading Themes & Custom Typography:** Espresso, Matcha, Midnight, Sepia, and Rosewood themes in Dark/Light modes with scalable typography.
+* 📥 **Offline Shelf & Batch Folder Downloads:** Save entire classes, authors, or series collections for 100% offline reading with zero-duplication Drive shortcut indexing.
+* 🔄 **Built-in In-App Updater:** Live progress bar APK downloader, native Android package installer trigger, and automatic temporary cache cleanup.
+
+---
+
+### 3. 🕊️ [Albartross SA](https://github.com/salman-anik/Albartross-SA) — 3D Procedural WebGL Flight Experience
+
+<div align="center">
+
+[![Live Web App](https://img.shields.io/badge/Live_App-albartross--sa.vercel.app-1d3557?style=for-the-badge&logo=vercel&logoColor=white)](https://albartross-sa.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FAlbartross--SA-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/Albartross-SA)
+
+</div>
+
+A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**, where you glide as an albatross across endless islands, misty rivers, and open sea:
+* 🌍 **Procedural World:** Infinite streaming terrain with islands, waterfalls, coastal foam, stone heads, pillars, obelisks, and rotating mini-map navigation.
+* 🩷 **Companion Albatross:** A glowing pink partner bird with its own flight behavior—explore together when following it, or trigger side-by-side flight with the **Fly Together** button.
+* 🌦️ **Dynamic Atmosphere:** Real-time day/night cycle, sun/moon arcs, stars, clouds, rain, wind gusts, snow accumulation, and sea ice floes.
+* 📱 **Cross-Platform & Mobile Fullscreen:** Smooth keyboard/mouse controls and mobile touch drag-to-steer with hold-to-boost, plus fullscreen PWA support.
+
+---
+
+## 🗂️ Data Collection Projects
+
+### 1. 🗄️ [Bangladesh Biggest Public Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database) — Open-Source Public Data Infrastructure
 
 <div align="center">
 
@@ -133,41 +169,7 @@ The largest open-source collection of structured Bangladesh public data, organiz
 
 ---
 
-### 3. 🕊️ [Albartross SA](https://github.com/salman-anik/Albartross-SA) — 3D Procedural WebGL Flight Experience
-
-<div align="center">
-
-[![Live Web App](https://img.shields.io/badge/Live_App-albartross--sa.vercel.app-1d3557?style=for-the-badge&logo=vercel&logoColor=white)](https://albartross-sa.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FAlbartross--SA-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/Albartross-SA)
-
-</div>
-
-A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**, where you glide as an albatross across endless islands, misty rivers, and open sea:
-* 🌍 **Procedural World:** Infinite streaming terrain with islands, waterfalls, coastal foam, stone heads, pillars, obelisks, and rotating mini-map navigation.
-* 🩷 **Companion Albatross:** A glowing pink partner bird with its own flight behavior—explore together when following it, or trigger side-by-side flight with the **Fly Together** button.
-* 🌦️ **Dynamic Atmosphere:** Real-time day/night cycle, sun/moon arcs, stars, clouds, rain, wind gusts, snow accumulation, and sea ice floes.
-* 📱 **Cross-Platform & Mobile Fullscreen:** Smooth keyboard/mouse controls and mobile touch drag-to-steer with hold-to-boost, plus fullscreen PWA support.
-
----
-
-### 4. 📱 [AnaBook](https://github.com/salman-anik/AnaBook) — Offline-First Android eBook Reader
-
-<div align="center">
-
-[![Live Web App](https://img.shields.io/badge/Live_Portal-anabook--bd.vercel.app-0F1115?style=for-the-badge&logo=vercel&logoColor=white)](https://anabook-bd.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FAnaBook-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/AnaBook)
-[![Download APK](https://img.shields.io/badge/Download_APK-Release_v1.1.4-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/salman-anik/AnaBook/releases/latest/download/AnaBook.apk)
-
-</div>
-
-A standalone **React Native & Expo** Android reader app engineered to carry **29,178+ verified Bangla, English & NCTB academic books** offline in your pocket:
-* 🎨 **5 Reading Themes & Custom Typography:** Espresso, Matcha, Midnight, Sepia, and Rosewood themes in Dark/Light modes with scalable typography.
-* 📥 **Offline Shelf & Batch Folder Downloads:** Save entire classes, authors, or series collections for 100% offline reading with zero-duplication Drive shortcut indexing.
-* 🔄 **Built-in In-App Updater:** Live progress bar APK downloader, native Android package installer trigger, and automatic temporary cache cleanup.
-
----
-
-### 5. 📚 [Bangladesh Biggest eBook Library](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library) — Open-Access Digital Library
+### 2. 📚 [Bangladesh Biggest eBook Library](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library) — Open-Access Digital Library
 
 <div align="center">
 

@@ -89,9 +89,12 @@ const featuredProjects = [
       url: 'https://github.com/salman-anik/AnaBook/releases/latest/download/AnaBook.apk',
     },
   },
+]
+
+const dataCollectionProjects = [
   {
     id: 'bangladesh-public-database',
-    kicker: '04 / OPEN-SOURCE DATA INFRASTRUCTURE',
+    kicker: '01 / OPEN-SOURCE DATA INFRASTRUCTURE',
     title: 'Bangladesh Biggest Public Database',
     tagline: 'Structured national datasets in JSON, CSV, and GeoJSON.',
     description:
@@ -116,7 +119,7 @@ const featuredProjects = [
   },
   {
     id: 'ebook-library',
-    kicker: '05 / OPEN-ACCESS DIGITAL LIBRARY',
+    kicker: '02 / OPEN-ACCESS DIGITAL LIBRARY',
     title: 'Bangladesh Biggest eBook Library',
     tagline: '29,178+ verified Bangla, English & NCTB books mirrored with Google Drive.',
     description:
@@ -143,21 +146,39 @@ const featuredProjects = [
 
 function Projects() {
   return (
-    <section className="section-shell section" id="projects">
-      <div className="section-heading reveal">
-        <p className="eyebrow">04 / FEATURED PROJECTS</p>
-        <h2>Featured Projects</h2>
-        <p className="section-intro">
-          Five flagship engineering, mobile, 3D WebGL, and open-data projects built and maintained on GitHub.
-        </p>
-      </div>
+    <>
+      <section className="section-shell section" id="projects">
+        <div className="section-heading reveal">
+          <p className="eyebrow">04 / FEATURED PROJECTS</p>
+          <h2>Featured Projects</h2>
+          <p className="section-intro">
+            Three flagship engineering, mobile, and 3D WebGL applications built and maintained on GitHub.
+          </p>
+        </div>
 
-      <div className="projects-bento-grid">
-        {featuredProjects.map((project) => (
-          <FeaturedProjectCard key={project.id} {...project} />
-        ))}
-      </div>
-    </section>
+        <div className="projects-bento-grid">
+          {featuredProjects.map((project) => (
+            <FeaturedProjectCard key={project.id} {...project} />
+          ))}
+        </div>
+      </section>
+
+      <section className="section-shell section" id="data-collection">
+        <div className="section-heading reveal">
+          <p className="eyebrow">05 / DATA COLLECTION PROJECTS</p>
+          <h2>Data Collection Projects</h2>
+          <p className="section-intro">
+            Large-scale open datasets and curated digital archives structured for research, AI/ML, and public access.
+          </p>
+        </div>
+
+        <div className="projects-bento-grid">
+          {dataCollectionProjects.map((project) => (
+            <FeaturedProjectCard key={project.id} {...project} />
+          ))}
+        </div>
+      </section>
+    </>
   )
 }
 
