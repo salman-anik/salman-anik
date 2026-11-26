@@ -1,10 +1,37 @@
-import { BookOpen, Database, Feather, HeartPulse, Smartphone } from 'lucide-react'
+import { BookOpen, Database, Feather, HeartPulse, Plane, Smartphone } from 'lucide-react'
 import FeaturedProjectCard from './FeaturedProjectCard'
 
 const featuredProjects = [
   {
+    id: 'frustration',
+    kicker: '01 / 3D AERIAL STRIKE & CAMPUS SIM',
+    title: 'Frustration',
+    tagline: '3D fighter jet aerial strike simulator over East West University, Aftabnagar.',
+    description:
+      'A React Three Fiber and Three.js 3D simulator featuring fighter jet flight, aerial combat effects, and third-person campus exploration across a detailed East West University and Aftabnagar cityscape.',
+    statusLabel: 'Live Web App',
+    tags: ['Three.js', 'React Three Fiber', 'TypeScript'],
+    icon: Plane,
+    image: '/projects/frustration.jpg',
+    imageAlt: 'Frustration 3D fighter jet flying over East West University campus in Aftabnagar',
+    highlights: [
+      'Dual Jet flight & 3rd-person Walk modes across EWU buildings, main gate, and Aftabnagar city',
+      'Afterburner smoke trails, aerial combat effects, camera shake, and synthesized engine & SFX audio',
+      '5 graphics presets, Day/Golden/Night lighting, dynamic weather, minimap radar, and mobile optimization',
+    ],
+    stats: [
+      { value: '3D WebGL', label: 'React Three Fiber' },
+      { value: 'Jet + Walk', label: 'Dual Sim Modes' },
+      { value: '3 Presets', label: 'Day / Golden / Night' },
+      { value: '5 Tiers', label: 'Graphics Quality' },
+    ],
+    liveUrl: 'https://frustration-omega.vercel.app/',
+    liveLabel: 'Launch Sim',
+    githubUrl: 'https://github.com/salman-anik/frustration',
+  },
+  {
     id: 'albartross-sa',
-    kicker: '01 / 3D PROCEDURAL WEBGL',
+    kicker: '02 / 3D PROCEDURAL WEBGL',
     title: 'Albartross SA',
     tagline: 'Procedural 3D flight over islands, misty rivers, and open sea.',
     description:
@@ -31,7 +58,7 @@ const featuredProjects = [
   },
   {
     id: 'anapharm',
-    kicker: '02 / 3D HEALTHCARE & PHARMACOLOGY',
+    kicker: '03 / 3D HEALTHCARE & PHARMACOLOGY',
     title: 'AnaPharm',
     tagline: '3D Human Anatomy & Bangladesh Medicine Database.',
     description:
@@ -62,7 +89,7 @@ const featuredProjects = [
   },
   {
     id: 'anabook',
-    kicker: '03 / OFFLINE-FIRST ANDROID READER',
+    kicker: '04 / OFFLINE-FIRST ANDROID READER',
     title: 'AnaBook',
     tagline: 'Offline-first Android eBook reader for 29,178+ Bangla, English & NCTB books.',
     description:
@@ -152,7 +179,7 @@ function Projects() {
           <p className="eyebrow">04 / FEATURED PROJECTS</p>
           <h2>Featured Projects</h2>
           <p className="section-intro">
-            Three flagship engineering, mobile, and 3D WebGL applications built and maintained on GitHub.
+            Four flagship engineering, mobile, and 3D WebGL applications built and maintained on GitHub.
           </p>
         </div>
 

@@ -138,6 +138,20 @@ A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**,
 * 🌦️ **Dynamic Atmosphere:** Real-time day/night cycle, sun/moon arcs, stars, clouds, rain, wind gusts, snow accumulation, and sea ice floes.
 * 📱 **Cross-Platform & Mobile Fullscreen:** Smooth keyboard/mouse controls and mobile touch drag-to-steer with hold-to-boost, plus fullscreen PWA support.
 
+### 4. ✈️ [Frustration](https://github.com/salman-anik/frustration) — 3D Fighter Jet & Campus Simulator
+
+<div align="center">
+
+[![Live Web App](https://img.shields.io/badge/Live_App-frustration--omega.vercel.app-991b1b?style=for-the-badge&logo=vercel&logoColor=white)](https://frustration-omega.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2Ffrustration-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/frustration)
+
+</div>
+
+A 3D fighter jet aerial strike and campus explorer simulator over **East West University (Aftabnagar, Dhaka)** built with **React Three Fiber**, **Three.js**, and **TypeScript**:
+* ✈️ **Dual Jet & Walk Modes:** Fly a fighter jet with afterburner smoke trails, combat effects, and camera shake, or explore EWU buildings on foot in 3rd-person.
+* 🌦️ **Dynamic Atmosphere & Presets:** Switch between **Day**, **Golden**, and **Night** lighting, dynamic weather, and 5 graphics quality tiers (`very-low` to `ultra`).
+* 🗺️ **Tactical HUD & Mobile Optimization:** Live minimap radar, engine/SFX audio controls, loading screen, and mobile-optimized controls.
+
 ---
 
 ## 🗂️ Data Collection Projects
