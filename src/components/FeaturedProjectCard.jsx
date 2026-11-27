@@ -24,25 +24,26 @@ function FeaturedProjectCard({
       <div className="project-bento-top">
         <div className="project-top-meta">
           <span className="project-kicker-pill">{kicker}</span>
+        </div>
+        <div className="project-top-right">
           <span className="flagship-status-badge anapharm-badge">
             <span className="flagship-pulse-dot anapharm-pulse" aria-hidden="true" />
             {statusLabel}
           </span>
-        </div>
-        <div className="project-top-right">
-          <div className="project-tags-inline">
-            {tags.slice(0, 3).map((tag) => (
-              <span className="project-micro-tag" key={tag}>
-                {tag}
-              </span>
-            ))}
-          </div>
           {Icon && (
             <span className="project-icon-badge" aria-hidden="true">
               <Icon size={16} />
             </span>
           )}
         </div>
+      </div>
+
+      <div className="project-tags-inline">
+        {tags.slice(0, 3).map((tag) => (
+          <span className="project-micro-tag" key={tag}>
+            {tag}
+          </span>
+        ))}
       </div>
 
       {images?.length ? (

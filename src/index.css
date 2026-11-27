@@ -1315,15 +1315,16 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 8px;
+  min-height: 30px;
 }
 
 .project-top-meta {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 7px;
+  min-width: 0;
+  flex: 1;
 }
 
 .project-kicker-pill {
@@ -1332,11 +1333,15 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .project-top-right {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   gap: 6px;
 }
 
@@ -1344,7 +1349,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 5px;
+  margin-top: -4px;
 }
 
 .project-micro-tag {
