@@ -11,6 +11,7 @@ function FeaturedProjectCard({
   icon: Icon,
   image,
   imageAlt,
+  images,
   highlights,
   stats,
   liveUrl,
@@ -35,10 +36,18 @@ function FeaturedProjectCard({
         {Icon && <Icon size={20} className="anapharm-pulse-icon" aria-hidden="true" />}
       </div>
 
-      {image && (
-        <div className="project-bento-media">
-          <img src={image} alt={imageAlt || title} loading="lazy" />
+      {images?.length ? (
+        <div className="project-bento-media project-bento-media--gallery">
+          {images.map((item) => (
+            <img key={item.src} src={item.src} alt={item.alt || title} loading="lazy" />
+          ))}
         </div>
+      ) : (
+        image && (
+          <div className="project-bento-media">
+            <img src={image} alt={imageAlt || title} loading="lazy" />
+          </div>
+        )
       )}
 
       <div className="project-bento-body">
@@ -75,14 +84,16 @@ function FeaturedProjectCard({
         >
           {liveLabel} <ArrowUpRight size={16} aria-hidden="true" />
         </a>
-        <a
-          className="button button-outline"
-          href={githubUrl}
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub <Github size={16} aria-hidden="true" />
-        </a>
+        {githubUrl && (
+          <a
+            className="button button-outline"
+            href={githubUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub <Github size={16} aria-hidden="true" />
+          </a>
+        )}
         {extraAction && (
           <a
             className="button button-outline"

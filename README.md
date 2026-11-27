@@ -138,12 +138,11 @@ A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**,
 * 🌦️ **Dynamic Atmosphere:** Real-time day/night cycle, sun/moon arcs, stars, clouds, rain, wind gusts, snow accumulation, and sea ice floes.
 * 📱 **Cross-Platform & Mobile Fullscreen:** Smooth keyboard/mouse controls and mobile touch drag-to-steer with hold-to-boost, plus fullscreen PWA support.
 
-### 4. ✈️ [Frustration](https://github.com/salman-anik/frustration) — 3D Fighter Jet & Campus Simulator
+### 4. ✈️ Frustration — 3D Fighter Jet & Campus Simulator
 
 <div align="center">
 
 [![Live Web App](https://img.shields.io/badge/Live_App-frustration--omega.vercel.app-991b1b?style=for-the-badge&logo=vercel&logoColor=white)](https://frustration-omega.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2Ffrustration-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/frustration)
 
 </div>
 

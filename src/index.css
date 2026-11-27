@@ -1339,6 +1339,18 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   transform: scale(1.03);
 }
 
+.project-bento-media--gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.project-bento-media--gallery img {
+  object-fit: contain;
+  border-radius: 10px;
+}
+
 .project-bento-body {
   display: flex;
   flex-direction: column;

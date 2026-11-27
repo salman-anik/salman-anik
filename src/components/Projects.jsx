@@ -27,7 +27,6 @@ const featuredProjects = [
     ],
     liveUrl: 'https://frustration-omega.vercel.app/',
     liveLabel: 'Launch Sim',
-    githubUrl: 'https://github.com/salman-anik/frustration',
   },
   {
     id: 'albartross-sa',
@@ -97,6 +96,11 @@ const featuredProjects = [
     statusLabel: 'Web & APK',
     tags: ['React Native', 'Expo', 'TypeScript'],
     icon: Smartphone,
+    images: [
+      { src: '/projects/anabook-home.jpg', alt: 'AnaBook mobile home screen with Suggested For You and Popular Authors' },
+      { src: '/projects/anabook-categories.jpg', alt: 'AnaBook Categories screen showing 29,178 books across genres' },
+      { src: '/projects/anabook-search.jpg', alt: 'AnaBook Search screen with featured authors and category filters' },
+    ],
     highlights: [
       'Instant search & browsing across 29,178+ verified books and 19,254+ Series & Collections links',
       '5 reading themes (Espresso, Matcha, Midnight, Sepia, Rosewood), offline shelf & batch folder downloads',
