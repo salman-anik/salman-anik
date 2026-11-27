@@ -1,4 +1,4 @@
-import { BookOpen, Database, Feather, HeartPulse, Plane, Smartphone } from 'lucide-react'
+import { BookOpen, Building2, Database, Feather, HeartPulse, Plane, Smartphone } from 'lucide-react'
 import FeaturedProjectCard from './FeaturedProjectCard'
 
 const featuredProjects = [
@@ -124,6 +124,33 @@ const featuredProjects = [
       url: 'https://github.com/salman-anik/AnaBook/releases/latest/download/AnaBook.apk',
     },
   },
+  {
+    id: 'threedewu',
+    kicker: '05 / 3D ARCHITECTURAL CAMPUS MODEL',
+    title: 'ThreeDewu',
+    tagline: 'Interactive 3D architectural campus model of East West University (EWU).',
+    description:
+      'A real-time React Three Fiber and Three.js 3D campus explorer of East West University in Aftabnagar, Dhaka—featuring all campus blocks, B2–9F floor cutaways, X-Ray mode, room inspection, and GLB export.',
+    statusLabel: 'Live Web App',
+    tags: ['Three.js', 'React Three Fiber', 'TypeScript'],
+    icon: Building2,
+    image: '/projects/threedewu.jpg',
+    imageAlt: 'ThreeDewu interactive 3D architectural model of East West University campus',
+    highlights: [
+      'Complete 3D campus geometry covering Block A, B, C (North/Mid/South), D, FUB, and Admin',
+      '3D Exterior, Floor Cutaway (B2–9F), and X-Ray view modes with clickable building and room badges',
+      'Detailed interiors including Manzur Elahi Auditorium, CSE labs, library, classrooms, and GLB export',
+    ],
+    stats: [
+      { value: 'B2–9F', label: 'Floor Cutaways' },
+      { value: '6 Blocks', label: 'Campus Buildings' },
+      { value: '3 Modes', label: 'Exterior / Cut / X-Ray' },
+      { value: 'GLB', label: '3D Model Export' },
+    ],
+    liveUrl: 'https://threedewu.vercel.app/',
+    liveLabel: 'Explore 3D',
+    githubUrl: 'https://github.com/salman-anik/ThreeDewu',
+  },
 ]
 
 const dataCollectionProjects = [
@@ -187,7 +214,7 @@ function Projects() {
           <p className="eyebrow">04 / FEATURED PROJECTS</p>
           <h2>Featured Projects</h2>
           <p className="section-intro">
-            Four flagship engineering, mobile, and 3D WebGL applications built and maintained on GitHub.
+            Five flagship engineering, mobile, and 3D WebGL applications built and maintained on GitHub.
           </p>
         </div>
 

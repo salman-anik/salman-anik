@@ -164,6 +164,24 @@ A high-performance 3D fighter jet aerial strike and campus explorer simulator ov
 * 🗺️ **Dual-Ring Tactical HUD & Radar:** Real-time dual-ring combat HUD, floor-aware minimap radar, full interactive Dhaka map modal, and realistic engine & SFX audio.
 * 🌦️ **Dynamic Atmosphere & Presets:** Switch between **Day**, **Golden**, and **Night** lighting, dynamic weather, and 5 graphics quality tiers (`very-low` to `ultra`).
 
+### 5. 🏛️ [ThreeDewu](https://github.com/salman-anik/ThreeDewu) — Interactive 3D EWU Campus Model
+
+<div align="center">
+
+[![Live Web App](https://img.shields.io/badge/Live_App-threedewu.vercel.app-ea580c?style=for-the-badge&logo=vercel&logoColor=white)](https://threedewu.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FThreeDewu-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/ThreeDewu)
+
+</div>
+
+<p align="center">
+  <img src="public/projects/threedewu.jpg" width="85%" alt="ThreeDewu 3D East West University Campus Model" />
+</p>
+
+An interactive 3D architectural campus model of **East West University (EWU)** in Aftabnagar, Dhaka built with **React Three Fiber**, **Three.js**, and **TypeScript**:
+* 🏢 **Full Campus Geometry:** Explore Block A, Block B, Block C (North, Mid, South), Block D, FUB, Admin, and surrounding campus grounds.
+* 📐 **3D Exterior, Floor Cutaway & X-Ray Modes:** Inspect every level from **B2 to 9F** with clickable building and room badges.
+* 🎓 **Detailed Interiors & GLB Export:** Features the Manzur Elahi Auditorium, CSE labs, library, classrooms, dynamic lighting presets, and one-click `.glb` 3D model export.
+
 ---
 
 ## 🗂️ Data Collection Projects
