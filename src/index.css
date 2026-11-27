@@ -1272,13 +1272,13 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
 }
 
 /* ==========================================================================
-   Modern 2x2 Projects Bento Grid
+   Modern Compact Projects Bento Grid & Device Mockups
    ========================================================================== */
 
 .projects-bento-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
+  gap: 18px;
   align-items: stretch;
 }
 
@@ -1291,23 +1291,23 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
 .project-bento-card {
   position: relative;
   overflow: hidden;
-  padding: 24px;
-  border: 1px solid var(--border-strong);
-  border-radius: 22px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
   background:
-    radial-gradient(ellipse at 92% 8%, var(--glow-two), transparent 48%),
-    radial-gradient(ellipse at 8% 92%, var(--glow-one), transparent 48%),
+    radial-gradient(ellipse at 95% 0%, color-mix(in srgb, var(--glow-two) 75%, transparent), transparent 46%),
+    radial-gradient(ellipse at 5% 100%, color-mix(in srgb, var(--glow-one) 75%, transparent), transparent 46%),
     var(--surface);
   box-shadow: var(--card-shadow);
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  gap: 14px;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .project-bento-card:hover {
-  transform: translateY(-4px);
-  border-color: color-mix(in srgb, var(--accent-ink) 38%, var(--border-strong));
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--accent-ink) 42%, var(--border-strong));
   box-shadow: var(--shadow);
 }
 
@@ -1315,42 +1315,203 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.project-bento-media {
+.project-top-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.project-kicker-pill {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.project-top-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.project-tags-inline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.project-micro-tag {
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.project-icon-badge {
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  border: 1px solid color-mix(in srgb, var(--accent-ink) 20%, transparent);
+}
+
+/* Showcase Stage */
+.project-media-stage {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background:
+    radial-gradient(circle at 50% 25%, color-mix(in srgb, var(--accent-ink) 12%, transparent), transparent 68%),
+    var(--surface-strong);
+  overflow: hidden;
+}
+
+/* Browser Viewport Mockup for Web / 3D Projects */
+.project-media-stage--web {
+  padding: 0;
+}
+
+.browser-mockup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.browser-bar {
+  height: 22px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: color-mix(in srgb, var(--surface) 88%, var(--border));
+  border-bottom: 1px solid var(--border);
+}
+
+.browser-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--border-strong);
+}
+
+.browser-viewport {
   width: 100%;
   aspect-ratio: 16 / 9;
-  border-radius: 14px;
   overflow: hidden;
-  border: 1px solid var(--border);
-  background: var(--surface-strong);
+  background: #0d1017;
 }
 
-.project-bento-media img {
+.browser-viewport img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.35s ease;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.project-bento-card:hover .project-bento-media img {
+.project-bento-card:hover .browser-viewport img {
   transform: scale(1.03);
 }
 
-.project-bento-media--gallery {
+/* Mobile Phone Mockup Gallery for App Screenshots */
+.project-media-stage--phones {
+  padding: 18px 16px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-phones-row {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  padding: 10px;
+  gap: 12px;
+  align-items: center;
+  max-width: 410px;
+  margin-inline: auto;
 }
 
-.project-bento-media--gallery img {
-  object-fit: contain;
-  border-radius: 10px;
+.phone-mockup {
+  position: relative;
+  background: linear-gradient(145deg, #252834 0%, #101218 100%);
+  border-radius: 17px;
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    0 12px 24px rgba(0, 0, 0, 0.22),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.32s ease;
 }
 
+.phone-mockup--center {
+  transform: translateY(-5px) scale(1.04);
+  z-index: 2;
+  box-shadow:
+    0 18px 34px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.project-bento-card:hover .phone-mockup {
+  transform: translateY(-2px);
+}
+
+.project-bento-card:hover .phone-mockup--center {
+  transform: translateY(-8px) scale(1.06);
+}
+
+.phone-notch {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 28%;
+  height: 4px;
+  border-radius: 999px;
+  background: #090a0e;
+  z-index: 3;
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.06);
+}
+
+.phone-screen {
+  width: 100%;
+  aspect-ratio: 9 / 19.5;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0c0e13;
+}
+
+.phone-screen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.phone-home-bar {
+  width: 34%;
+  height: 2.5px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.35);
+  margin: 4px auto 1px;
+}
+
+/* Body & Copy */
 .project-bento-body {
   display: flex;
   flex-direction: column;
@@ -1358,24 +1519,32 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   flex: 1;
 }
 
+.project-title-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 .project-bento-title {
   margin: 0;
-  font-size: clamp(20px, 2.2vw, 24px);
-  letter-spacing: -0.03em;
+  font-size: clamp(19px, 2vw, 22px);
+  font-weight: 700;
+  letter-spacing: -0.025em;
   line-height: 1.2;
 }
 
 .project-bento-tagline {
   margin: 0;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 600;
   color: var(--accent-ink);
+  line-height: 1.4;
 }
 
 .project-bento-desc {
-  margin: 2px 0 4px;
-  font-size: 14px;
-  line-height: 1.6;
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.55;
   color: var(--muted);
 }
 
@@ -1385,54 +1554,72 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 5px;
 }
 
 .project-bento-highlights li {
   display: flex;
   align-items: flex-start;
-  gap: 8px;
-  font-size: 13px;
+  gap: 7px;
+  font-size: 12.5px;
   line-height: 1.45;
   color: var(--text);
 }
 
-.project-bento-stats {
+/* Compact Horizontal 4-Stat Strip */
+.project-stats-strip {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   margin-top: auto;
-  padding-top: 10px;
-}
-
-.project-bento-stat {
-  padding: 10px 12px;
   border-radius: 12px;
   border: 1px solid var(--border);
   background: var(--surface-strong);
+  overflow: hidden;
+}
+
+.project-stat-cell {
+  padding: 9px 10px;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 1px;
+  border-right: 1px solid var(--border);
+}
+
+.project-stat-cell:last-child {
+  border-right: none;
 }
 
 .project-bento-stat-value {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: -0.02em;
   color: var(--accent-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .project-bento-stat-label {
-  font-size: 11px;
+  font-size: 10.5px;
   color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+/* Compact Actions */
 .project-bento-actions {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-  padding-top: 4px;
+  gap: 8px;
+  padding-top: 2px;
+}
+
+.project-btn-compact {
+  padding: 8px 14px;
+  font-size: 13px;
+  border-radius: 10px;
 }
 
 @media (max-width: 900px) {
@@ -1441,15 +1628,39 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
   .project-bento-card {
-    padding: 18px;
+    padding: 16px;
+  }
+  .project-media-stage--phones {
+    padding: 14px 10px 10px;
+  }
+  .project-phones-row {
+    gap: 8px;
+  }
+  .phone-mockup {
+    border-radius: 13px;
+    padding: 3.5px;
+  }
+  .phone-screen {
+    border-radius: 9px;
+  }
+  .project-stats-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .project-stat-cell:nth-child(2) {
+    border-right: none;
+  }
+  .project-stat-cell:nth-child(1),
+  .project-stat-cell:nth-child(2) {
+    border-bottom: 1px solid var(--border);
   }
   .project-bento-actions {
     flex-direction: column;
   }
   .project-bento-actions .button {
     width: 100%;
+    justify-content: center;
   }
 }
 
