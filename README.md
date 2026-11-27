@@ -164,12 +164,11 @@ A high-performance 3D fighter jet aerial strike and campus explorer simulator ov
 * 🗺️ **Dual-Ring Tactical HUD & Radar:** Real-time dual-ring combat HUD, floor-aware minimap radar, full interactive Dhaka map modal, and realistic engine & SFX audio.
 * 🌦️ **Dynamic Atmosphere & Presets:** Switch between **Day**, **Golden**, and **Night** lighting, dynamic weather, and 5 graphics quality tiers (`very-low` to `ultra`).
 
-### 5. 🏛️ [ThreeDewu](https://github.com/salman-anik/ThreeDewu) — Interactive 3D EWU Campus Model
+### 5. 🏛️ ThreeDewu — Interactive 3D EWU Campus Model
 
 <div align="center">
 
 [![Live Web App](https://img.shields.io/badge/Live_App-threedewu.vercel.app-ea580c?style=for-the-badge&logo=vercel&logoColor=white)](https://threedewu.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FThreeDewu-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/ThreeDewu)
 
 </div>
 

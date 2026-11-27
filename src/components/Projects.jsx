@@ -149,7 +149,6 @@ const featuredProjects = [
     ],
     liveUrl: 'https://threedewu.vercel.app/',
     liveLabel: 'Explore 3D',
-    githubUrl: 'https://github.com/salman-anik/ThreeDewu',
   },
 ]
 
