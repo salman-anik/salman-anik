@@ -98,6 +98,12 @@ Python
 
 </div>
 
+<p align="center">
+  <img src="public/projects/anapharm-medicines.jpg" width="31%" alt="AnaPharm Medicines & Brands Directory" />
+  <img src="public/projects/anapharm-anatomy.jpg" width="31%" alt="AnaPharm 3D Human Anatomy Viewer" />
+  <img src="public/projects/anapharm-settings.jpg" width="31%" alt="AnaPharm Settings & Statistics" />
+</p>
+
 An interactive 3D human anatomy and pharmaceutical reference application combining WebGL anatomical exploration, physiological simulations (heartbeat BPM, lungs, blood circulation), disease references, and an extensive Bangladesh pharmaceutical database:
 * 🔬 **3D Human Anatomy:** Full-body model with 360° orbital rotation, layered dissection, exploded disassembly, and X-ray mode.
 * 🫀 **Physiological Simulations:** Real-time animated heartbeat with adjustable BPM, pulmonary respiratory expansion, and animated blood flow particles.
@@ -115,6 +121,12 @@ An interactive 3D human anatomy and pharmaceutical reference application combini
 [![Download APK](https://img.shields.io/badge/Download_APK-Release_v1.1.4-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/salman-anik/AnaBook/releases/latest/download/AnaBook.apk)
 
 </div>
+
+<p align="center">
+  <img src="public/projects/anabook-home.jpg" width="31%" alt="AnaBook Home Screen" />
+  <img src="public/projects/anabook-categories.jpg" width="31%" alt="AnaBook Categories Screen" />
+  <img src="public/projects/anabook-search.jpg" width="31%" alt="AnaBook Search Screen" />
+</p>
 
 A standalone **React Native & Expo** Android reader app engineered to carry **29,178+ verified Bangla, English & NCTB academic books** offline in your pocket:
 * 🎨 **5 Reading Themes & Custom Typography:** Espresso, Matcha, Midnight, Sepia, and Rosewood themes in Dark/Light modes with scalable typography.
@@ -138,7 +150,7 @@ A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**,
 * 🌦️ **Dynamic Atmosphere:** Real-time day/night cycle, sun/moon arcs, stars, clouds, rain, wind gusts, snow accumulation, and sea ice floes.
 * 📱 **Cross-Platform & Mobile Fullscreen:** Smooth keyboard/mouse controls and mobile touch drag-to-steer with hold-to-boost, plus fullscreen PWA support.
 
-### 4. ✈️ Frustration — 3D Fighter Jet & Campus Simulator
+### 4. ✈️ Frustration — Supersonic 3D Fighter Jet & EWU Campus Simulator
 
 <div align="center">
 
@@ -146,10 +158,11 @@ A procedural 3D WebGL flight experience built with **Three.js** and **Next.js**,
 
 </div>
 
-A 3D fighter jet aerial strike and campus explorer simulator over **East West University (Aftabnagar, Dhaka)** built with **React Three Fiber**, **Three.js**, and **TypeScript**:
-* ✈️ **Dual Jet & Walk Modes:** Fly a fighter jet with afterburner smoke trails, combat effects, and camera shake, or explore EWU buildings on foot in 3rd-person.
+A high-performance 3D fighter jet aerial strike and campus explorer simulator over **East West University (Aftabnagar, Dhaka)** built with **React Three Fiber**, **Three.js**, and **TypeScript**:
+* ✈️ **Supersonic Aerodynamics & FX:** Realistic supersonic vapor cones, sonic shockwave bursts, Mach diamonds, slipstream ribbons, and afterburner smoke trails.
+* 🎮 **Dual Jet & Walk Modes:** Pilot a fighter jet with combat effects and camera shake, or explore EWU buildings and the Aftabnagar cityscape on foot in 3rd-person.
+* 🗺️ **Dual-Ring Tactical HUD & Radar:** Real-time dual-ring combat HUD, floor-aware minimap radar, full interactive Dhaka map modal, and realistic engine & SFX audio.
 * 🌦️ **Dynamic Atmosphere & Presets:** Switch between **Day**, **Golden**, and **Night** lighting, dynamic weather, and 5 graphics quality tiers (`very-low` to `ultra`).
-* 🗺️ **Tactical HUD & Mobile Optimization:** Live minimap radar, engine/SFX audio controls, loading screen, and mobile-optimized controls.
 
 ---
 
