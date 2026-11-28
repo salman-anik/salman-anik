@@ -1,7 +1,7 @@
 <div align="center">
 
 # Salman Anik
-
+## AI can think but can't overthink the way we can
 ### `CSE Student` · `AI & Data Science Enthusiast` · `Developer`
 
 <p>
