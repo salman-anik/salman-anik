@@ -177,6 +177,11 @@ const dataCollectionProjects = [
     liveUrl: 'https://bangladesh-biggest-public-database.vercel.app/',
     liveLabel: 'Explore Data',
     githubUrl: 'https://github.com/salman-anik/Bangladesh-Biggest-Public-Database',
+    extraAction: {
+      label: 'Google Drive',
+      url: 'https://drive.google.com/drive/folders/1ObOiGGQXl9B4bodcnDkx7g5yU_dc-Gol',
+      kind: 'drive',
+    },
   },
   {
     id: 'ebook-library',
@@ -202,6 +207,11 @@ const dataCollectionProjects = [
     liveUrl: 'https://anabook-bd.vercel.app/library',
     liveLabel: 'Visit Library',
     githubUrl: 'https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library',
+    extraAction: {
+      label: 'Google Drive',
+      url: 'https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq',
+      kind: 'drive',
+    },
   },
 ]
 

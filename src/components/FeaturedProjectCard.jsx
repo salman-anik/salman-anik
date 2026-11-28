@@ -1,4 +1,4 @@
-import { ArrowUpRight, CheckCircle2, Download, Github } from 'lucide-react'
+import { ArrowUpRight, CheckCircle2, Download, FolderOpen, Github } from 'lucide-react'
 
 function FeaturedProjectCard({
   id,
@@ -132,7 +132,12 @@ function FeaturedProjectCard({
             target="_blank"
             rel="noreferrer"
           >
-            <Download size={15} aria-hidden="true" /> {extraAction.label}
+            {extraAction.kind === 'drive' ? (
+              <FolderOpen size={15} aria-hidden="true" />
+            ) : (
+              <Download size={15} aria-hidden="true" />
+            )}{' '}
+            {extraAction.label}
           </a>
         )}
       </div>

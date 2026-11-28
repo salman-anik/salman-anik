@@ -208,6 +208,7 @@ The largest open-source collection of structured Bangladesh public data, organiz
 - **🚨 Emergency Contacts:** 24/7 national helplines (999, 333), police stations, and fire service desks.
 
 * 🗄️ **Repository:** [salman-anik/Bangladesh-Biggest-Public-Database](https://github.com/salman-anik/Bangladesh-Biggest-Public-Database)
+* 📂 **Google Drive Mirror (2.33 TB):** [Open Google Drive](https://drive.google.com/drive/folders/1ObOiGGQXl9B4bodcnDkx7g5yU_dc-Gol)
 * 🚀 **Ready for:** Python Pandas, Data Science, AI/ML, NLP, Vector RAG, and Web/Mobile Applications
 
 ---
@@ -217,6 +218,7 @@ The largest open-source collection of structured Bangladesh public data, organiz
 <div align="center">
 
 [![Live Web Library](https://img.shields.io/badge/Live_Library-anabook--bd.vercel.app%2Flibrary-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://anabook-bd.vercel.app/library)
+[![Google Drive](https://img.shields.io/badge/Google_Drive-319.4_GB_Archive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1fMsplDtUnpUhnNBJGKvYQ1sdZx0QVJWq)
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Online_Portal-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://salman-anik.github.io/Bangladesh-Biggest-eBook-Library/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-salman--anik%2FBangladesh--Biggest--eBook--Library-181717?style=for-the-badge&logo=github)](https://github.com/salman-anik/Bangladesh-Biggest-eBook-Library)
 
