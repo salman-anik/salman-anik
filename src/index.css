@@ -51,6 +51,7 @@ body {
   isolation: isolate;
   margin: 0;
   min-width: 320px;
+  overflow-x: clip;
   background: var(--bg);
   color: var(--text);
   transition: background .25s ease, color .25s ease;
@@ -120,6 +121,10 @@ button { border: 0; background: transparent; cursor: pointer; }
 }
 
 .brand {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   font-size: 17px;
   font-weight: 800;
   letter-spacing: -.04em;
@@ -328,16 +333,25 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
 .social-row {
   display: flex;
   align-items: center;
-  gap: 19px;
-  margin-top: 27px;
+  gap: 8px;
+  margin-top: 20px;
   color: var(--muted);
 }
 
-.social-row a { transition: color .2s ease, transform .2s ease; }
+.social-row a {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  transition: color .2s ease, transform .2s ease;
+}
 .social-row a:hover { color: var(--text); transform: translateY(-2px); }
 
 .scroll-cue {
-  margin-top: 64px;
+  margin-top: 52px;
+  min-height: 44px;
+  padding: 10px 14px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -805,10 +819,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  padding-bottom: 7px;
+  min-height: 44px;
+  padding: 6px 0;
   border-bottom: 1px solid var(--text);
-  font-size: clamp(18px, 3vw, 26px);
+  font-size: clamp(16px, 3.2vw, 26px);
   letter-spacing: -.025em;
+  word-break: break-word;
   transition: opacity .2s ease;
 }
 
@@ -824,8 +840,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
 .contact-links a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
-  padding: 10px 13px;
+  min-height: 44px;
+  padding: 10px 16px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface);
@@ -852,7 +870,13 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   font-size: 11px;
 }
 
-.footer button { color: var(--muted); }
+.footer button {
+  color: var(--muted);
+  min-height: 44px;
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+}
 .footer button:hover { color: var(--text); }
 
 .reveal {
@@ -905,25 +929,46 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
 
   .nav-links button, .nav-resume {
     justify-content: flex-start;
-    padding: 12px 14px;
+    min-height: 44px;
+    padding: 11px 14px;
     border-radius: 11px;
   }
 
   .nav-resume { margin: 0; }
 
+  .theme-toggle, .menu-toggle {
+    width: 44px;
+    height: 44px;
+  }
+
   .menu-toggle { display: grid; }
 
   .hero {
     min-height: auto;
-    padding-top: 145px;
-    padding-bottom: 85px;
+    padding-top: 96px;
+    padding-bottom: 52px;
   }
 
-  .hero h1 { font-size: clamp(48px, 16vw, 72px); }
+  .profile-frame {
+    width: 84px;
+    height: 84px;
+    margin-bottom: 18px;
+  }
+
+  .hero-status { margin-bottom: 18px; }
+
+  .hero h1 { font-size: clamp(44px, 14vw, 68px); }
 
   .hero-copy { font-size: 15px; }
 
-  .section { padding: 82px 0; }
+  .scroll-cue { margin-top: 28px; }
+
+  .section {
+    padding: 64px 0;
+    scroll-margin-top: 84px;
+  }
+
+  .section-heading { margin-bottom: 34px; }
 
   .about-grid {
     grid-template-columns: 1fr;
@@ -957,9 +1002,18 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   }
 }
 
-@media (max-width: 450px) {
-  .hero-buttons { width: 100%; }
-  .button { flex: 1; min-width: 145px; }
+@media (max-width: 480px) {
+  .hero-buttons {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .hero-buttons .button {
+    width: 100%;
+    min-height: 48px;
+    white-space: nowrap;
+  }
 
   .skills-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
   .skill-card { min-height: 105px; padding: 18px; }
@@ -973,6 +1027,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   .learning-stage-copy strong { font-size: 13px; }
   .learning-stage-copy > span { font-size: 11px; }
 
+  .contact-panel { padding: 28px 20px; }
   .contact-links a { width: 100%; }
 }
 
@@ -1694,6 +1749,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent-ink); ou
   .project-bento-actions .button {
     width: 100%;
     justify-content: center;
+    min-height: 44px;
   }
 }
 

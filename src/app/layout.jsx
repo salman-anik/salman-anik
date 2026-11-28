@@ -36,6 +36,8 @@ const siteJsonLd = {
 }
 
 export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
   themeColor: '#f5f7fb',
 }
 
